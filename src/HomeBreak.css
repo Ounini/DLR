@@ -1,0 +1,365 @@
+/* XXL */
+@media (min-width: 1400px) {
+  .navBody.custom-nav {
+    transition: background-color 0.3s ease-in-out;
+    background-color: transparent !important;
+    position: fixed;
+    z-index: 1020;
+  }
+  .custom-nav.scrolled {
+    background-color: rgb(74, 4, 4) !important;
+  }
+  .navbar-collapse {
+    flex-grow: unset !important;
+  }
+  .nav-link.offeringsBar {
+    margin: 10px 10px 10px;
+  }
+  .nav-link {
+    margin: 10px 0 10px;
+  }
+  .firstCaro {
+    height: 100vh;
+  }
+  .firstCaro .carousel-item h3 {
+    font-size: 30px;
+  }
+  .firstCaro .carousel-item {
+    height: 100vh;
+  }
+  .carousel-item img {
+    width: fit-content;
+    height: fit-content;
+  }
+  .caroPhase {
+    font-size: 20px;
+  }
+  .caroBtn a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .programmeHome {
+    font-size: 18px;
+  }
+  section .btn-secondary {
+    margin-top: 20px !important;
+    font-size: 20px;
+  }
+  .caroBtn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .caroBtn a {
+    width: 250px;
+  }
+  .sectionServices {
+    width: 70%;
+  }
+  .homeCaro .row .col-sm-12 {
+    display: flex;
+    justify-content: center;
+  }
+  .sectionServices.testimoneySec {
+    width: auto;
+    padding: 0;
+  }
+  .testimony-carousel-wrapper {
+    max-width: 600px;
+    width: auto;
+    margin: 0 auto;
+  }
+  .quickLinks {
+    text-align: start;
+    width: 250px;
+    margin: 0 auto;
+  }
+}
+
+/* XL */
+@media (max-width: 1399px) and (min-width: 1200px) {
+  .navBody.custom-nav {
+    transition: background-color 0.3s ease-in-out;
+    background-color: transparent !important;
+    position: fixed;
+    z-index: 1020;
+  }
+  .custom-nav.scrolled {
+    background-color: rgb(74, 4, 4) !important;
+  }
+  .navbar-collapse {
+    flex-grow: unset !important;
+  }
+  .nav-link.offeringsBar {
+    margin: 10px 10px 10px;
+  }
+  .nav-link {
+    margin: 10px 0 10px;
+  }
+  .firstCaro {
+    height: 100vh;
+  }
+  .firstCaro .carousel-item h3 {
+    font-size: 30px;
+  }
+  .firstCaro .carousel-item {
+    height: 100vh;
+  }
+  .carousel-item img {
+    width: fit-content;
+    height: fit-content;
+  }
+  .caroPhase {
+    font-size: 20px;
+  }
+  .caroBtn a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .programmeHome {
+    font-size: 18px;
+  }
+  section .btn-secondary {
+    margin-top: 20px !important;
+    font-size: 20px;
+  }
+  .caroBtn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .caroBtn a {
+    width: 250px;
+  }
+  .sectionServices {
+    width: 70%;
+  }
+  .homeCaro .row .col-sm-12 {
+    display: flex;
+    justify-content: center;
+  }
+  .sectionServices.testimoneySec {
+    width: auto;
+    padding: 0;
+  }
+  .testimony-carousel-wrapper {
+    max-width: 600px;
+    width: auto;
+    margin: 0 auto;
+  }
+  .quickLinks {
+    text-align: start;
+    width: 250px;
+    margin: 0 auto;
+  }
+}
+
+/* LG */
+@media (max-width: 1199px) and (min-width: 992px) {
+  .navBody.custom-nav {
+    transition: background-color 0.3s ease-in-out;
+    background-color: transparent !important;
+    position: fixed;
+    z-index: 1020;
+  }
+  .custom-nav.scrolled {
+    background-color: rgb(74, 4, 4) !important;
+  }
+  .navbar-collapse {
+    flex-grow: unset !important;
+  }
+  .nav-link.offeringsBar {
+    margin: 10px 10px 10px;
+  }
+  .nav-link {
+    margin: 10px 0 10px;
+  }
+  .firstCaro {
+    height: 100vh;
+  }
+  .firstCaro .carousel-item h3 {
+    font-size: 30px;
+  }
+  .firstCaro .carousel-item {
+    height: 100vh;
+  }
+  .carousel-item img {
+    width: fit-content;
+    height: fit-content;
+  }
+  .caroPhase {
+    font-size: 20px;
+  }
+  .caroBtn a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .programmeHome {
+    font-size: 18px;
+  }
+  section .btn-secondary {
+    margin-top: 20px !important;
+    font-size: 20px;
+  }
+  .caroBtn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .caroBtn a {
+    width: 250px;
+  }
+  .sectionServices {
+    width: 70%;
+  }
+  .homeCaro .row .col-sm-12 {
+    display: flex;
+    justify-content: center;
+  }
+  .sectionServices.testimoneySec {
+    width: auto;
+    padding: 0;
+  }
+  .testimony-carousel-wrapper {
+    max-width: 600px;
+    width: auto;
+    margin: 0 auto;
+  }
+  .quickLinks {
+    text-align: start;
+    width: 250px;
+    margin: 0 auto;
+  }
+  div.socialCol {
+    margin-top: -100px;
+  }
+}
+
+/* MD */
+@media (max-width: 991px) and (min-width: 768px) {
+  .navBody.custom-nav {
+    transition: background-color 0.3s ease-in-out;
+    background-color: transparent !important;
+    position: fixed;
+    z-index: 1020;
+  }
+  .navbar-collapse {
+    background-color: rgb(74, 4, 4);
+  }
+  .custom-nav.scrolled {
+    background-color: rgb(74, 4, 4) !important;
+  }
+  .firstCaro {
+    height: 100vh;
+  }
+  .firstCaro .carousel-item h3 {
+    font-size: 30px;
+  }
+  .firstCaro .carousel-item {
+    height: 100vh;
+  }
+  .carousel-item img {
+    width: fit-content;
+    height: fit-content;
+  }
+  .caroPhase {
+    font-size: 20px;
+  }
+  .caroBtn a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .programmeHome {
+    font-size: 18px;
+  }
+  section .btn-secondary {
+    margin-top: 20px !important;
+    font-size: 20px;
+  }
+  .caroBtn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .caroBtn a {
+    width: 250px;
+  }
+  .sectionServices {
+    width: 70%;
+  }
+  .homeCaro .row .col-sm-12 {
+    display: flex;
+    justify-content: center;
+  }
+  .sectionServices.testimoneySec {
+    width: auto;
+    padding: 0;
+  }
+  .testimony-carousel-wrapper {
+    max-width: 600px;
+    width: auto;
+    margin: 0 auto;
+  }
+  .quickLinks {
+    text-align: start;
+    width: 250px;
+    margin: 0 auto;
+  }
+  div.socialCol {
+    margin-top: -100px;
+  }
+}
+
+/* SM */
+@media (max-width: 767px) and (min-width: 576px) {
+  .carousel-item h3 {
+    font-size: 30px;
+  }
+  .carousel-item img {
+    width: fit-content;
+    height: fit-content;
+  }
+  .caroPhase {
+    font-size: 20px;
+  }
+  .caroBtn a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .programmeHome {
+    font-size: 18px;
+  }
+  section .btn-secondary {
+    margin-top: 20px !important;
+    font-size: 20px;
+  }
+}
+
+/* XS */
+@media (max-width: 575px) {
+}

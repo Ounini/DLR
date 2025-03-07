@@ -1,0 +1,197 @@
+/* NAVBAR */
+.navBody {
+  background-color: rgb(74, 4, 4) !important;
+}
+.navbar a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.navLogo img {
+  width: 80px;
+  height: auto;
+}
+.navbar-toggler {
+  border-color: white !important;
+}
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  box-shadow: none !important;
+}
+.navbar-collapse {
+  text-align: center;
+}
+.nav-link.liveBar {
+  border: 1px solid #fff;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 30px;
+  margin: 10px 0 10px;
+  color: black;
+}
+.nav-link.offeringsBar {
+  border: 1px solid #0000ff;
+  background-color: #0000ff;
+  border-radius: 30px;
+  margin: 10px 0 10px;
+  color: white;
+}
+
+/* CAROUSEL */
+.carousel {
+  height: 700px;
+}
+.carousel-item {
+  height: 700px;
+}
+.carousel-item img {
+  width: 100%;
+  height: 700px;
+  color: black;
+}
+.carousel-caption.caroCap {
+  top: 50%;
+  left: 50%;
+  right: 0;
+  width: 70%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  z-index: 2;
+  font-family: "Montserrat", sans-serif;
+}
+.caroPhase {
+  font-style: italic;
+  font-weight: 200;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.carousel-caption.caroCap h3 {
+  font-weight: 900;
+}
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.caroBtn {
+  display: grid;
+}
+.caroJoin {
+  border: 1px solid #ffd700;
+  color: white;
+  text-decoration: none;
+}
+.caroJoin:hover {
+  color: #ffd700;
+  font-weight: 900;
+  text-shadow: 0 0 10px black;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+.caroWorship {
+  background-color: #ffd700;
+  color: black;
+  font-weight: 900;
+  text-decoration: none;
+  margin: 5px 0;
+}
+.caroWorship:hover {
+  background-color: black;
+  font-weight: 900;
+  color: white;
+}
+
+/* Section One Home */
+.sectionServices {
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+}
+.sectionServices h4 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  border: 1px solid rgb(74, 4, 4);
+  background-color: rgb(74, 4, 4);
+  color: white;
+  font-weight: 900;
+  padding: 5px 0 5px;
+}
+.sectionServices p {
+  margin-bottom: 2px;
+  font-family: "Open Sans", sans-serif;
+}
+.sectionServices i {
+  font-size: 40px;
+  margin-right: 30px;
+}
+.container-fluid .row {
+  --bs-gutter-x: 0;
+}
+.youtubeImg img {
+  margin-top: 30px;
+  width: 150px;
+}
+.testCaro::before,
+.testCaro::after {
+  display: none !important;
+}
+.test {
+  height: auto;
+}
+.testCaro {
+  height: auto;
+  text-align: left;
+}
+.testCaro h5 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+}
+.testCaro span {
+  font-weight: 700;
+}
+.footer {
+  background-color: #4b0082;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+.footer h6 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.footer a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+.quickLinks {
+  text-align: center;
+  display: grid;
+}
+.follow {
+  margin-top: 20px;
+}
+.socialMedia {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+}
+.copyright {
+  margin-top: 30px;
+}
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
