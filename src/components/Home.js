@@ -8,7 +8,7 @@ const caroData = [
   {
     id: 1,
     img: pic,
-    text: "Welcome to Divine Light Of Restruction",
+    text: "Welcome to Divine Light Of Resurrection ",
     alt: "welcome",
     phase: '"A Place of Hope, Love, and Worship."',
     joinText: "Join us live",
@@ -94,7 +94,7 @@ function Home() {
           <section className="sectionServices">
             <h4>About Us</h4>
             <p>
-              Divine Light Of Restruction (DLR) is a faith-driven community
+              Divine Light Of Resurrection (DLR) is a faith-driven community
               committed to spreading God's love, empowering lives, and
               transforming generations through worship, the Word, and service.
               Join us as we shine His light to the world!
@@ -115,10 +115,10 @@ function Home() {
             <p>Every Friday intercession and worship at 5pm(WAT)</p>
             <div>
               <Link target="_blank" to="https://facebook.com">
-                <i class="bi bi-facebook" />
+                <i className="bi bi-facebook" />
               </Link>
               <Link target="_blank" to="https://youtube.com">
-                <i class="bi bi-youtube text-danger" />
+                <i className="bi bi-youtube text-danger" />
               </Link>
             </div>
             <Button variant="secondary" href="/live" className="mt-2">

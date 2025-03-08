@@ -19,7 +19,7 @@ function Footer() {
           <h6>Quick links</h6>
           <div className="quickLinks">
             <Link to="/">Home</Link>
-            <Link to="/about">About Us</Link>
+            <Link to="/about-us">About Us</Link>
             <Link to="/ministry">The Ministry</Link>
             <Link to="/programmes"> Programmes</Link>
             <Link to="/rescoures"> semons and music</Link>
@@ -41,7 +41,7 @@ function Footer() {
         </Col>
       </Row>
       <p className="copyright">
-        copyright &copy; {year} - Divine Life Of Restruction. All rights
+        copyright &copy; {year} - Divine Life Of Resurrection . All rights
         Reserved.
       </p>
     </Container>

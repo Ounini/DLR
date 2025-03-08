@@ -79,6 +79,9 @@
     width: 250px;
     margin: 0 auto;
   }
+  .con img {
+    height: 500px;
+  }
 }
 
 /* XL */
@@ -161,6 +164,9 @@
     text-align: start;
     width: 250px;
     margin: 0 auto;
+  }
+  .con img {
+    height: 400px;
   }
 }
 
@@ -248,6 +254,9 @@
   div.socialCol {
     margin-top: -100px;
   }
+  .con img {
+    height: 350px;
+  }
 }
 
 /* MD */
@@ -328,6 +337,9 @@
   div.socialCol {
     margin-top: -100px;
   }
+  .con img {
+    height: 250px;
+  }
 }
 
 /* SM */
@@ -357,6 +369,9 @@
   section .btn-secondary {
     margin-top: 20px !important;
     font-size: 20px;
+  }
+  .con img {
+    height: 250px;
   }
 }
 
