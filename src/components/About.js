@@ -1,21 +1,22 @@
 import { Button, Container } from "react-bootstrap";
+import { PageHeaders } from "./PageHeaders";
 import about from "../assest/images/pic3.png";
 import pastor from "../assest/images/pic2.jpg";
+
+var pageHeader = "Welcome to DLR";
+var pageShorty =
+  "For where two or three gather in my name, there am I with them.";
 
 function About() {
   return (
     <Container fluid className="con">
       <section>
-        <div className="position-relative overlay-container">
-          <img src={about} alt="About" className="img-fluid" />
-          <div className="overlay"></div>
-          <h3 className="position-absolute top-50 start-50 translate-middle text-white fw-bolder">
-            Welcome to DLR
-          </h3>
-          <span className="position-absolute text-white fw-bolder spanAbouts translate-middle">
-            "For where two or three gather in my name, there am I with them."
-          </span>
-        </div>
+        <PageHeaders
+          img={about}
+          imgAbout={"About DLR"}
+          pageHeader={pageHeader}
+          pageShorty={pageShorty}
+        />
         <div className="d-flex justify-content-center align-items-center my-3">
           <Button className="buttoned">Join Us Live</Button>
         </div>
