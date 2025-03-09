@@ -18,7 +18,9 @@ function About() {
           pageShorty={pageShorty}
         />
         <div className="d-flex justify-content-center align-items-center my-3">
-          <Button className="buttoned">Join Us Live</Button>
+          <Button className="buttoned" href="/live">
+            Join Us Live
+          </Button>
         </div>
         <section className="p-3">
           <article>

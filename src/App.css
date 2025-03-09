@@ -269,5 +269,8 @@ article h6 {
 .thePastor span {
   font-style: italic;
 }
+article ul {
+  list-style: circle;
+}
 /* font-family: 'Montserrat', sans-serif; */
 /* font-family: 'Open Sans', sans-serif; */

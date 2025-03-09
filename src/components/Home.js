@@ -99,7 +99,7 @@ function Home() {
               transforming generations through worship, the Word, and service.
               Join us as we shine His light to the world!
             </p>
-            <Button variant="secondary" href="/about-us" className="mt-2">
+            <Button href="/about-us" className="mt-2 buttoned">
               About Us
             </Button>
           </section>
@@ -121,7 +121,7 @@ function Home() {
                 <i className="bi bi-youtube text-danger" />
               </Link>
             </div>
-            <Button variant="secondary" href="/live" className="mt-2">
+            <Button href="/live" className="mt-2 buttoned">
               Join Us Live
             </Button>
           </section>
@@ -143,7 +143,7 @@ function Home() {
                 </Link>
               </Col>
             </Row>
-            <Button variant="secondary" href="/about-us" className="mt-2">
+            <Button href="/about-us" className="mt-2 buttoned">
               Watch or Listen Now
             </Button>
           </section>
@@ -159,7 +159,7 @@ function Home() {
             <div className="programmeHome">
               For Special Announcement and More like the Link below...
             </div>
-            <Button variant="secondary" href="/programmes" className="mt-2">
+            <Button href="/programmes" className="mt-2 buttoned">
               See All Programmes
             </Button>
           </section>
@@ -175,7 +175,7 @@ function Home() {
               and open doors for divine blessings. Malachi 3:10 reminds us that
               when we give, God pours out blessings beyond measure.
             </p>
-            <Button variant="secondary" href="/offerings" className="mt-2">
+            <Button href="/offerings" className="mt-2 buttoned">
               Give Offerings
             </Button>
           </section>

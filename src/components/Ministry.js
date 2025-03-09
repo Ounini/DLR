@@ -27,7 +27,7 @@ function Ministry() {
             prayer, and a commitment to spreading God{"'"}s Word, the ministry
             expanded, reaching beyond its initial congregation.
             <br />
-            <img src={ministry} alt="ministry" className="img-fluid" />
+            <img src={ministry} alt="ministry" className="img-fluid my-3" />
             <br /> Over the years, Divine Life of Resurrection has become a
             beacon of hope, offering impactful worship services, outreach
             programs, and discipleship initiatives. Through city-wide
