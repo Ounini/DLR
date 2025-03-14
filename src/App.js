@@ -7,6 +7,8 @@ import Footer from "./components/Footer";
 import About from "./components/About.js";
 import Ministry from "./components/Ministry.js";
 import Programmes from "./components/Programmes.js";
+import Sermons from "./components/Sermons.jsx";
+import Contact from "./components/Contact.js";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/about-us" element={<About />} />
           <Route path="/ministry" element={<Ministry />} />
           <Route path="/programmes" element={<Programmes />} />
+          <Route path="/resources" element={<Sermons />} />
+          <Route path="/contact-us" element={<Contact />} />
         </Routes>
       </main>
       <footer>

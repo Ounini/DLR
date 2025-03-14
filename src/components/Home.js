@@ -1,5 +1,5 @@
 import { Button, Carousel, Col, Container, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import pic from "../assest/images/pic3.jpg";
 import youtubeListen from "../assest/images/youtube.png";
 import spotifyListen from "../assest/images/spotify.png";
@@ -64,6 +64,12 @@ const testimoneyData = [
 ];
 
 function Home() {
+  const navigate = useNavigate();
+
+  const goToTarget = () => {
+    navigate("/resources#musics");
+  };
+
   return (
     <Container fluid className="px-0 homeCaro">
       <Carousel className="firstCaro">
@@ -94,10 +100,12 @@ function Home() {
           <section className="sectionServices">
             <h4>About Us</h4>
             <p>
-              Divine Light Of Resurrection (DLR) is a faith-driven community
-              committed to spreading God's love, empowering lives, and
-              transforming generations through worship, the Word, and service.
-              Join us as we shine His light to the world!
+              D.L.R. (Divine Light of Resurrection) is a Christ-led ministry
+              dedicated to rescuing lost souls and waging spiritual warfare
+              against forces of oppression. Many believers today experience
+              "Calvary"—a place of suffering, where struggles like
+              childlessness, joblessness, and stagnation persist. D.L.R. is here
+              to bring total freedom through the power of Jesus Christ.
             </p>
             <Button href="/about-us" className="mt-2 buttoned">
               About Us
@@ -143,7 +151,7 @@ function Home() {
                 </Link>
               </Col>
             </Row>
-            <Button href="/about-us" className="mt-2 buttoned">
+            <Button onClick={goToTarget} className="mt-2 buttoned">
               Watch or Listen Now
             </Button>
           </section>

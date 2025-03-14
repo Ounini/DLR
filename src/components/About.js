@@ -26,16 +26,22 @@ function About() {
           <article>
             <h4>Our Mission</h4>
             <p>
-              At Divine Life of Resurrection, our mission is to spread the love
-              of Christ, serve our community, and nurture spiritual growth
-              through worship and discipleship.
+              At Divine Light of Resurrection (D.L.R.), our mission is to reach
+              out to lost souls, break spiritual strongholds, and bring total
+              freedom to those suffering under the burdens of life. Through the
+              power of Jesus Christ, we wage war against the forces of
+              oppression, offering hope, deliverance, and restoration to all who
+              seek the light of God{"'"}s resurrection.
             </p>
           </article>
           <article>
             <h4>Our Vision</h4>
             <p>
-              To be a beacon of faith, hope, and love, transforming lives
-              through the power of God{"'"}s word.
+              Our vision is to see lives transformed and liberated from the
+              afflictions of "Calvary"—a place of suffering, stagnation, and
+              oppression. We aspire to be a beacon of divine light, leading
+              believers into their God-ordained destiny, where they experience
+              victory, fruitfulness, and fulfillment in Christ.
             </p>
           </article>
           <article>
@@ -86,13 +92,22 @@ function About() {
             </h6>
             <p>
               <span>Dear Beloved,</span>
-              <br /> I warmly welcome you to Divine Life Of Resurrection, a
-              place where God{"'"}s presence dwells, and lives are transformed.
-              It is my prayer that as you connect with us, you will experience
-              the love, peace, and power of God in a new way. No matter where
-              you come from or what you have been through, know that you are
-              loved, valued, and destined for greatness in Christ. May God bless
-              you abundantly, and I look forward to worshiping with you! <br />
+              <br /> I warmly welcome you to Divine Light of Resurrection
+              (D.L.R.) is a ministry under the leadership of our Lord Jesus
+              Christ, committed to reaching lost souls and engaging in spiritual
+              warfare against the forces of darkness.
+              <br />
+              <br />
+              Many believers today find themselves in Calvary—a state of torment
+              and affliction. You may be married but unable to conceive,
+              educated but struggling with unemployment, or facing persistent
+              hardships. These are signs of being in Calvary—a place of
+              suffering and delay.
+              <br /> <br />
+              That is why Divine Light of Resurrection exists—to bring you out
+              of spiritual bondage and into total freedom through the
+              resurrection power of Jesus Christ. Your deliverance starts here!
+              <br />
               <span>{"-"} Apostle Sunny</span>
             </p>
           </article>

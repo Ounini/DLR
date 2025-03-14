@@ -22,8 +22,8 @@ function Footer() {
             <Link to="/about-us">About Us</Link>
             <Link to="/ministry">The Ministry</Link>
             <Link to="/programmes"> Programmes</Link>
-            <Link to="/rescoures"> semons and music</Link>
-            <Link to="/contact">Contact Us</Link>
+            <Link to="/resources"> Semons and Music</Link>
+            <Link to="/contact-us">Contact Us</Link>
             <Link to="/live">Live</Link>
             <Link to="/offerings">Offerings</Link>
           </div>

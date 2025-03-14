@@ -82,6 +82,9 @@
   .con img {
     height: 500px;
   }
+  .sermonCol.col-md-6 {
+    padding: 0 20px;
+  }
 }
 
 /* XL */
@@ -167,6 +170,9 @@
   }
   .con img {
     height: 400px;
+  }
+  .sermonCol.col-md-6 {
+    padding: 0 20px;
   }
 }
 
@@ -257,6 +263,9 @@
   .con img {
     height: 350px;
   }
+  .sermonCol.col-md-6 {
+    padding: 0 20px;
+  }
 }
 
 /* MD */
@@ -339,6 +348,9 @@
   }
   .con img {
     height: 250px;
+  }
+  .sermonCol.col-md-6 {
+    padding: 0 20px;
   }
 }
 
