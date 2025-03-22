@@ -9,10 +9,11 @@ function Footer() {
         <Col sm={12} md={6} xl={4}>
           <h6>Contact Info</h6>
           <p>
-            Phone: <a href="tel:+2349036610547">+234 (903) 661 0547</a>
+            Phone: <a href="tel:+2349128522529"> +234 (0)912 852 2529</a>,
+            <a href="tel:+2348052975719"> +234 (0)805 297 5719</a>
           </p>
           <p>
-            Email: <a href="mailto:frontdest@dlr.com">frontdest@dlr.com</a>
+            Email: <a href="mailto:enquires@dlr.org"> enquires@dlr.org</a>
           </p>
         </Col>
         <Col sm={12} md={6} xl={4}>

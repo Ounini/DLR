@@ -1,9 +1,11 @@
 import { Button, Container } from "react-bootstrap";
 import { PageHeaders } from "./PageHeaders";
-import programme from "../assest/images/pic3.png";
+import programme from "../assest/images/pic1.jpg";
 
 const pageHeader = "Our Programmes";
 const pageShorty = "Let us not give up meeting together...";
+
+var ThursdayProgramm = "Capture Your Glory";
 
 function Programmes() {
   return (
@@ -20,14 +22,10 @@ function Programmes() {
             <h4>Weekly Programmes</h4>
             <ul>
               <li>
-                <strong>Sunday:</strong> Worship Service 9:00 AM - 12:00 PM
+                <strong>Sunday:</strong> Sunday Worship 7:00 AM - 10:30 AM
               </li>
               <li>
-                <strong>Wednesday:</strong> Bible Study & Prayer 6:00 PM - 8:00
-                PM
-              </li>
-              <li>
-                <strong>Friday:</strong> Prayer Meetings 6:00 PM - 8:00 PM
+                <strong>Thursday:</strong> {ThursdayProgramm} 4:00 PM - 5:30 PM
               </li>
             </ul>
           </article>

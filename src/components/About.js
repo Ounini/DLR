@@ -1,11 +1,10 @@
 import { Button, Container } from "react-bootstrap";
 import { PageHeaders } from "./PageHeaders";
-import about from "../assest/images/pic3.png";
-import pastor from "../assest/images/pic2.jpg";
+import about from "../assest/images/pic1.jpg";
+import pastor from "../assest/images/pic3.jpg";
 
 var pageHeader = "Welcome to DLR";
-var pageShorty =
-  "For where two or three gather in my name, there am I with them.";
+var pageShorty = "...I am the resurrection, and the life... (John 11: 25)";
 
 function About() {
   return (
@@ -68,24 +67,32 @@ function About() {
               </li>
             </ul>
           </article>
-          <article className="thePastor">
+          <article className="thePastor text-center">
             <h4 className="text-center pt-5">Meet Our Senior Pastor</h4>
-            <img
-              src={pastor}
-              alt="The Pastor of Divine Life of Resurrection"
-              className="img-fluid"
-            />
-            <h6 className="text-center fw-bolder pt-3">Apostle Sunny</h6>
+            <div className="d-flex justify-content-center">
+              <img
+                src={pastor}
+                alt="The Pastor of Divine Life of Resurrection"
+                className="img-fluid"
+              />
+            </div>
+
+            <h6 className="text-center fw-bolder pt-3">
+              Apostle Victor S. Uwangue
+            </h6>
             <p>
-              Apostle Sunny is a passionate servant of God, dedicated to
-              preaching the gospel, transforming lives, and equipping believers
-              to fulfill their divine purpose. With a deep love for God{"'"}s
-              Word and a strong commitment to prayer, he has been a guiding
-              light in leading many to Christ. His ministry is marked by
-              powerful teachings, prophetic insights, and a heart for revival.
-              Through his leadership, Divine Life Of Resurrection continues to
-              impact lives, bringing healing, deliverance, and spiritual growth
-              to individuals and families.
+              Apostle Victor is the visionary leader and founder of{" "}
+              <b>Divine Light of Resurrection (DLR)</b>, a ministry birthed
+              through divine inspiration to bring salvation, healing, and
+              transformation. With a deep passion for God's Word and a heart for
+              souls, he has dedicated his life to preaching the Gospel with
+              power, love, and revelation, leading many into a deeper encounter
+              with Christ. Through DLR, Apostle Victor has witnessed countless
+              miracles, deliverances, and life-changing testimonies, affirming
+              God's faithfulness. His commitment to prayer, teaching, and the
+              prophetic has made him a vessel of transformation, raising a
+              generation of believers who walk in divine purpose, faith, and
+              victory.
             </p>
             <h6 className="fw-bolder text-center">
               A Message from our senior pastor

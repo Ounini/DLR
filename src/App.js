@@ -9,6 +9,9 @@ import Ministry from "./components/Ministry.js";
 import Programmes from "./components/Programmes.js";
 import Sermons from "./components/Sermons.jsx";
 import Contact from "./components/Contact.js";
+import Live from "./components/Live.js";
+import Offering from "./components/Offering.js";
+import GoUp from "./components/GoUp.jsx";
 
 function App() {
   return (
@@ -24,7 +27,10 @@ function App() {
           <Route path="/programmes" element={<Programmes />} />
           <Route path="/resources" element={<Sermons />} />
           <Route path="/contact-us" element={<Contact />} />
+          <Route path="/live" element={<Live />} />
+          <Route path="/offerings" element={<Offering />} />
         </Routes>
+        <GoUp />
       </main>
       <footer>
         <Footer />

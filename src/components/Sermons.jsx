@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { PageHeaders } from "./PageHeaders";
-import sermons from "../assest/images/pic3.png";
+import sermons from "../assest/images/pic1.jpg";
 import { Link, useLocation } from "react-router-dom";
 import youtubeListen from "../assest/images/youtube.png";
 import spotifyListen from "../assest/images/spotify.png";
@@ -62,7 +62,11 @@ function Sermons() {
         <section className="p-3">
           <article className="sermonsArt">
             <h4>Latest Sermon</h4>
-            <img src={sermons} alt="Last Sunday Sermon" className="img-fluid" />
+            <img
+              src={sermons}
+              alt="Last Sunday Sermon"
+              className="img-fluid mx-auto d-block sermonImg"
+            />
             <h6>Title: God the Author 4</h6>
             <p>
               God is the creator of all this we know and see today, without God

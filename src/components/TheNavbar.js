@@ -1,12 +1,12 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
-import logo from "../assest/images/logo.jpg";
+import logo from "../assest/images/logo.png";
 import { useEffect, useState } from "react";
 
 function TheNavbar() {
   const [navbar, setNavbar] = useState(false);
 
   const backgroundChange = () => {
-    if (window.innerWidth > 767 && window.scrollY > 50) {
+    if (window.innerWidth > 360 && window.scrollY > 50) {
       setNavbar(true);
     } else {
       setNavbar(false);

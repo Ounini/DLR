@@ -1,5 +1,14 @@
 /* XXL */
 @media (min-width: 1400px) {
+  .ministries img {
+    width: 700px;
+  }
+  .sermonImg {
+    width: 450px;
+  }
+  input.pay {
+    width: 500px;
+  }
   .navBody.custom-nav {
     transition: background-color 0.3s ease-in-out;
     background-color: transparent !important;
@@ -28,8 +37,8 @@
     height: 100vh;
   }
   .carousel-item img {
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
+    height: 100%;
   }
   .caroPhase {
     font-size: 20px;
@@ -39,6 +48,9 @@
     padding-bottom: 10px;
     font-size: 18px;
     margin-bottom: 20px;
+  }
+  .thePastor img {
+    width: 500px;
   }
   p {
     font-size: 18px;
@@ -85,10 +97,61 @@
   .sermonCol.col-md-6 {
     padding: 0 20px;
   }
+  .contactSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .formed {
+    width: 90%;
+    max-width: 600px;
+  }
+  .formed form {
+    width: 100%;
+  }
+  .formed label {
+    text-align: left;
+    display: block;
+  }
+  .youtube i,
+  .facebook i {
+    font-size: 3.5vw;
+    text-align: left;
+  }
+  .youtube span,
+  .facebook span {
+    padding-top: 2vw;
+  }
+  .youtube a,
+  .facebook a {
+    width: 90%;
+    margin-bottom: 5px;
+  }
+  .youtube,
+  .facebook {
+    display: flex;
+    justify-content: center;
+  }
+  .liveRow {
+    width: 90%;
+  }
 }
 
 /* XL */
 @media (max-width: 1399px) and (min-width: 1200px) {
+  .thePastor img {
+    width: 500px;
+  }
+  .ministries img {
+    width: 700px;
+  }
+  .sermonImg {
+    width: 400px;
+  }
+  input.pay {
+    width: 500px;
+  }
   .navBody.custom-nav {
     transition: background-color 0.3s ease-in-out;
     background-color: transparent !important;
@@ -117,8 +180,8 @@
     height: 100vh;
   }
   .carousel-item img {
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
+    height: 100%;
   }
   .caroPhase {
     font-size: 20px;
@@ -174,15 +237,63 @@
   .sermonCol.col-md-6 {
     padding: 0 20px;
   }
+  .contactSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .formed {
+    width: 90%;
+    max-width: 600px;
+  }
+  .formed form {
+    width: 100%;
+  }
+  .formed label {
+    text-align: left;
+    display: block;
+  }
+  .youtube i,
+  .facebook i {
+    font-size: 45px;
+    text-align: left;
+  }
+  .youtube span,
+  .facebook span {
+    padding-top: 25px;
+  }
+  .youtube a,
+  .facebook a {
+    width: 90%;
+    margin-bottom: 5px;
+  }
+  .youtube,
+  .facebook {
+    display: flex;
+    justify-content: center;
+  }
+  .liveRow {
+    width: 90%;
+  }
 }
 
 /* LG */
 @media (max-width: 1199px) and (min-width: 992px) {
+  .thePastor img {
+    width: 400px;
+  }
+  input.pay {
+    width: 500px;
+  }
   .navBody.custom-nav {
     transition: background-color 0.3s ease-in-out;
     background-color: transparent !important;
     position: fixed;
     z-index: 1020;
+  }
+  .sermonImg {
+    width: 400px;
   }
   .custom-nav.scrolled {
     background-color: rgb(74, 4, 4) !important;
@@ -206,8 +317,8 @@
     height: 100vh;
   }
   .carousel-item img {
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
+    height: 100%;
   }
   .caroPhase {
     font-size: 20px;
@@ -266,10 +377,61 @@
   .sermonCol.col-md-6 {
     padding: 0 20px;
   }
+  .contactSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .formed {
+    width: 90%;
+    max-width: 600px;
+  }
+  .formed form {
+    width: 100%;
+  }
+  .formed label {
+    text-align: left;
+    display: block;
+  }
+  .youtube i,
+  .facebook i {
+    font-size: 45px;
+    text-align: left;
+  }
+  .youtube span,
+  .facebook span {
+    padding-top: 25px;
+  }
+  .youtube a,
+  .facebook a {
+    width: 90%;
+    margin-bottom: 5px;
+  }
+  .youtube,
+  .facebook {
+    display: flex;
+    justify-content: center;
+  }
+  .liveRow {
+    width: 90%;
+  }
 }
 
 /* MD */
 @media (max-width: 991px) and (min-width: 768px) {
+  .thePastor img {
+    width: 350px;
+  }
+  .ministries img {
+    width: 500px;
+  }
+  .sermonsArt img {
+    width: 350px;
+  }
+  input.pay {
+    width: 500px;
+  }
   .navBody.custom-nav {
     transition: background-color 0.3s ease-in-out;
     background-color: transparent !important;
@@ -292,8 +454,8 @@
     height: 100vh;
   }
   .carousel-item img {
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
+    height: 100%;
   }
   .caroPhase {
     font-size: 20px;
@@ -352,16 +514,61 @@
   .sermonCol.col-md-6 {
     padding: 0 20px;
   }
+  .contactSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .formed {
+    width: 90%;
+    max-width: 600px;
+  }
+  .formed form {
+    width: 100%;
+  }
+  .formed label {
+    text-align: left;
+    display: block;
+  }
+  .youtube i,
+  .facebook i {
+    font-size: 45px;
+    text-align: left;
+  }
+  .youtube span,
+  .facebook span {
+    padding-top: 20px;
+  }
+  .youtube a,
+  .facebook a {
+    width: 90%;
+    margin-bottom: 5px;
+  }
+  .youtube,
+  .facebook {
+    display: flex;
+    justify-content: center;
+  }
+  .liveRow {
+    width: 90%;
+  }
 }
 
 /* SM */
 @media (max-width: 767px) and (min-width: 576px) {
+  .thePastor img {
+    width: 350px;
+  }
+  .sermonsArt img {
+    width: 350px;
+  }
   .carousel-item h3 {
     font-size: 30px;
   }
   .carousel-item img {
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
+    height: 100%;
   }
   .caroPhase {
     font-size: 20px;
@@ -385,8 +592,33 @@
   .con img {
     height: 250px;
   }
+  .youtube i,
+  .facebook i {
+    font-family: 40px;
+    text-align: left;
+  }
+  .youtube span,
+  .facebook span {
+    padding-top: 20px;
+  }
+  .youtube a,
+  .facebook a {
+    width: 80%;
+    margin-bottom: 5px;
+  }
+  .youtube,
+  .facebook {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* XS */
 @media (max-width: 575px) {
+  .thePastor img {
+    width: 300px;
+  }
+  .contactSec .sectionServices {
+    margin: 0;
+  }
 }
