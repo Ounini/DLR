@@ -27,7 +27,7 @@ const caroData = [
     text: "Experience God's Presence",
     alt: "join us",
     phase:
-      '"Join us live every Sunday at 7:00 AM & Thursdays at 4:00 PM (WAT)"',
+      '"Join us live every Sunday at 7:30 AM & Thursdays at 12:00 AM (WAT)"',
     joinText: "Join us live",
     joinUrl: "/live",
     worship: "Worship with us",
@@ -191,15 +191,18 @@ function Home() {
             <h4>Online Services</h4>
             <p>
               Join us for a life-changing encounter in God's presence! Our
-              online services are held every Sunday at 7:00 AM (WAT) and every
-              Thursday at 4:00 PM (WAT). Come expectant, and be blessed as we
+              online services are held every Sunday at 7:30 AM (WAT) and every
+              Thursday at 12:00 PM (WAT). Come expectant, and be blessed as we
               worship, pray, and receive divine revelation. Don't miss it!
             </p>
             <div>
               <Link target="_blank" to="https://facebook.com">
                 <i className="bi bi-facebook" />
               </Link>
-              <Link target="_blank" to="https://www.youtube.com/@divine_light_resurrection">
+              <Link
+                target="_blank"
+                to="https://www.youtube.com/@divine_light_resurrection"
+              >
                 <i className="bi bi-youtube text-danger" />
               </Link>
             </div>
@@ -215,12 +218,18 @@ function Home() {
             <h4>listen to sermons and music from our leading pastor</h4>
             <Row>
               <Col className="youtubeImg">
-                <Link target="_blank" to="https://www.youtube.com/watch?v=qNs3l_Nw4Mo">
+                <Link
+                  target="_blank"
+                  to="https://www.youtube.com/watch?v=qNs3l_Nw4Mo"
+                >
                   <img src={youtubeListen} alt="Listen on Youtube" />
                 </Link>
               </Col>
               <Col className="youtubeImg">
-                <Link target="_blank" to="https://open.spotify.com/album/6DuAl7mhGpwA2e8EKQJRXt?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid">
+                <Link
+                  target="_blank"
+                  to="https://open.spotify.com/album/6DuAl7mhGpwA2e8EKQJRXt?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid"
+                >
                   <img src={spotifyListen} alt="Listen on spotify" />
                 </Link>
               </Col>
@@ -233,11 +242,11 @@ function Home() {
         <Col sm={12} lg={6}>
           <section className="sectionServices">
             <h4>Upcoming Programmes</h4>
-            <p>2nd March 2025: Thanksgiving Sunday.</p>
-            <p>9th March 2025: Combined Service.</p>
-            <p>16th March 2025: Testimoney Service.</p>
-            <p>23rd March 2025: Combined Service</p>
-            <p>30th March 2025: Communion Service</p>
+            <p>4th May 2025: Sunday Service.</p>
+            <p>11th May 2025: Sunday Service.</p>
+            <p>18th May 2025: Sunday Service.</p>
+            <p>25thz May 2025: Sunday Service</p>
+            <p>1st May 2025: Sunday Service</p>
             <div className="programmeHome">
               For Special Announcement and More like the Link below...
             </div>
@@ -289,7 +298,7 @@ function Home() {
           <Carousel fade className="test">
             {testimoneyData.map((test) => (
               <Carousel.Item
-                interval="40000"
+                interval="50000"
                 className="testCaro"
                 key={test.id}
               >
