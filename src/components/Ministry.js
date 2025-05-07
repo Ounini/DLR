@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap";
 import ministry from "../assest/images/pic1.jpg";
 import ministry2 from "../assest/images/pic4.jpg";
+import logo from "../assest/images/logo.png";
 import { PageHeaders } from "./PageHeaders";
 
 var pageHeader = "The Ministry";
@@ -48,6 +49,52 @@ function Ministry() {
             the Lord has been revealing His mighty power through <b>D.L.R.</b>,
             changing lives, breaking yokes, and bringing{" "}
             <b>restoration to those in need.</b>
+          </p>
+        </article>
+        <article className="p-3 theLogo">
+          <h4>The Logo</h4>
+          <div className="text-center">
+            <img src={logo} alt="The Logo" />
+          </div>
+          <p>
+            <b>Oxblood</b>
+            <br />
+            Oxblood is more than a deep, rich hue—it signifies power,
+            sophistication, and a sense of luxury. It's a color that evokes
+            strength, timeless elegance, and a bold presence.
+            <br />
+            <b>Rainbow</b>
+            <br />
+            The rainbow stands as a universal symbol of hope, renewal, and the
+            promise of better days. Its meaning is rooted in divine assurance,
+            as seen in the book of Genesis 9: 11-16, <br />{" "}
+            <i>
+              "And I will establish my covenant with you, neither shall all
+              flesh be cut off any more by the waters of a flood; neither shall
+              there any more be a flood to destroy the earth.
+              <br />
+              And God said, This is the token of the covenant which I make
+              between me and you and every living creature that is with you, for
+              perpetual generations:
+              <br />
+              I do set my bow in the cloud, and it shall be for a token of a
+              covenant between me and the earth.
+              <br />
+              And it shall come to pass, when I bring a cloud over the earth,
+              that the bow shall be seen in the cloud:
+              <br />
+              And I will remember my covenant, which is between me and you and
+              every living creature of all flesh; and the waters shall no more
+              become a flood to destroy all flesh.
+              <br />
+              And the bow shall be in the cloud; and I will look upon it, that I
+              may remember the everlasting covenant between God and every living
+              creature of all flesh that is upon the earth."
+            </i>
+            <br />
+            This passage reminds us of God's everlasting covenant—a divine
+            promise of mercy and protection that endures through all
+            generations.
           </p>
         </article>
       </section>

@@ -1,7 +1,7 @@
 import { Container, Tab, Tabs } from "react-bootstrap";
 import { PageHeaders } from "./PageHeaders";
 import offering from "../assest/images/pic1.jpg";
-import Paystack from "../payment/Paystack";
+// import Paystack from "../payment/Paystack";
 
 var pageHeader = "Offerings and Tithe";
 var pageShorty = "Give and it shall be given unto you";
@@ -35,9 +35,9 @@ function Offering() {
                 </ul>
               </article>
             </Tab>
-            <Tab eventKey="PayStack" title="Pay Using PayStack">
+            {/* <Tab eventKey="PayStack" title="Pay Using PayStack">
               <Paystack />
-            </Tab>
+            </Tab> */}
           </Tabs>
         </section>
       </section>

@@ -10,6 +10,9 @@ p,
 span {
   font-family: "Open Sans", sans-serif;
 }
+.theLogo img {
+  width: 100%;
+}
 /* NAVBAR */
 .navBody {
   background-color: rgb(74, 4, 4) !important;

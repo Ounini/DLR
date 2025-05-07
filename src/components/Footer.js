@@ -32,10 +32,10 @@ function Footer() {
         <Col sm={12} md={6} xl={4} className="socialCol">
           <h6 className="follow">Follow Us</h6>
           <div className="socialMedia">
-            <Link to="https://facebook.com">
+            <Link target="_blank" to="https://facebook.com">
               <i className="bi bi-facebook" />
             </Link>
-            <Link to="https://youtube.com">
+            <Link target="_blank" to="https://www.youtube.com/@divine_light_resurrection">
               <i className="bi bi-youtube" />
             </Link>
           </div>

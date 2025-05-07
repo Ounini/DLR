@@ -48,14 +48,14 @@ const LiveStream = () => {
           <p>We are live now! watch below:</p>
           <div className="ratio ratio-16x9">
             <iframe
-              src="https://www.youtube.com/embed/ywKzOWpDF8I"
+              src="https://www.youtube.com/embed/SgLR52RcIkQ?si=oCol9T_rvVg04Pb6&amp;start=7"
               title="Live Service"
               allowFullScreen
               allow="autoplay; encrypted-media"
             />
           </div>
           <Button
-            href="https://www.youtube.com/@KoinoniaTestimonyBank"
+            href="https://www.youtube.com/@divine_light_resurrection"
             target="_blank"
             className="mt-3"
           >

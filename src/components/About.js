@@ -115,7 +115,7 @@ function About() {
               of spiritual bondage and into total freedom through the
               resurrection power of Jesus Christ. Your deliverance starts here!
               <br />
-              <span>{"-"} Apostle Sunny</span>
+              <span>{"-"} Apostle Victor</span>
             </p>
           </article>
         </section>

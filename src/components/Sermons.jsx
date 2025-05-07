@@ -1,44 +1,41 @@
 import { useEffect, useRef } from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { PageHeaders } from "./PageHeaders";
 import sermons from "../assest/images/pic1.jpg";
-import { Link, useLocation } from "react-router-dom";
-import youtubeListen from "../assest/images/youtube.png";
-import spotifyListen from "../assest/images/spotify.png";
-import appleListen from "../assest/images/apple.svg";
+import { useLocation } from "react-router-dom";
 
-var pageHeader = "Sermons";
+var pageHeader = "Music";
 var pageShorty = "Be inspired by God’s Word and uplifting worship.";
 
-const sermonsData = [
-  {
-    id: 1,
-    title: "God the Author 1",
-    description:
-      "God is the author of our lives, and He is the one who gives us",
-    date: "2020-01-01",
-    link: "#",
-    image: sermons,
-  },
-  {
-    id: 2,
-    title: "God the Author 2",
-    description:
-      "God is the author of our lives, and He is the one who gives us",
-    date: "2020-02-02",
-    link: "#",
-    image: sermons,
-  },
-  {
-    id: 3,
-    title: "God the Author 3",
-    description:
-      "God is the author of our lives, and He is the one who gives us",
-    date: "2020-03-03",
-    link: "#",
-    image: sermons,
-  },
-];
+// const sermonsData = [
+//   {
+//     id: 1,
+//     title: "God the Author 1",
+//     description:
+//       "God is the author of our lives, and He is the one who gives us",
+//     date: "2020-01-01",
+//     link: "#",
+//     image: sermons,
+//   },
+//   {
+//     id: 2,
+//     title: "God the Author 2",
+//     description:
+//       "God is the author of our lives, and He is the one who gives us",
+//     date: "2020-02-02",
+//     link: "#",
+//     image: sermons,
+//   },
+//   {
+//     id: 3,
+//     title: "God the Author 3",
+//     description:
+//       "God is the author of our lives, and He is the one who gives us",
+//     date: "2020-03-03",
+//     link: "#",
+//     image: sermons,
+//   },
+// ];
 
 function Sermons() {
   const targetRef = useRef(null);
@@ -60,7 +57,7 @@ function Sermons() {
           pageShorty={pageShorty}
         />
         <section className="p-3">
-          <article className="sermonsArt">
+          {/* <article className="sermonsArt">
             <h4>Latest Sermon</h4>
             <img
               src={sermons}
@@ -74,8 +71,8 @@ function Sermons() {
             </p>
             <Button href="#" className="buttoned">
               Watch now
-            </Button>
-          </article>
+            </Button> */}
+          {/* </article>
           <article className="sermonsArt">
             <h4>More Sermons from our senior pastor</h4>
             <Row>
@@ -102,26 +99,51 @@ function Sermons() {
                 </Col>
               ))}
             </Row>
-          </article>
+          </article> */}
           <article>
             <h4 ref={targetRef} id="musics">
               Music
             </h4>
-            <Row>
-              <Col className="youtubeImg">
-                <Link to="https://youtube.com">
-                  <img src={youtubeListen} alt="Listen on Youtube" />
-                </Link>
+            <Row className="musicRow">
+              <Col xs={12} lg={6} xl={4} className="youtubeImg">
+                <iframe
+                  width="100%"
+                  height="352"
+                  src="https://www.youtube.com/embed/qNs3l_Nw4Mo?si=oR5Rc7DTjkAYkKHa&amp;start=5"
+                  style={{ borderRadius: 12 }}
+                  title="Youtube: MY GOD NO DEY FAIL BY APOSTLE VICTOR S. UWANGUE"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                />
               </Col>
-              <Col className="youtubeImg">
-                <Link to="https://spotify.com">
-                  <img src={spotifyListen} alt="Listen on spotify" />
-                </Link>
+              <Col xs={12} lg={6} xl={4} className="youtubeImg">
+                <iframe
+                  title="spotify: MY GOD NO DEY FAIL BY APOSTLE VICTOR S. UWANGUE"
+                  style={{ borderRadius: 12 }}
+                  src="https://open.spotify.com/embed/album/6DuAl7mhGpwA2e8EKQJRXt?utm_source=generator&theme=0"
+                  width="100%"
+                  height="352"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                />
               </Col>
-              <Col className="youtubeImg">
-                <Link to="https://apple.com">
-                  <img src={appleListen} alt="Listen on apple" />
-                </Link>
+              <Col xs={12} xl={4} className="youtubeImg">
+                <iframe
+                  title="Apple: MY GOD NO DEY FAIL BY APOSTLE VICTOR S. UWANGUE"
+                  allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+                  frameborder="0"
+                  height="352"
+                  style={{
+                    width: "100%",
+                    overflow: "hidden",
+                    borderRadius: 12,
+                  }}
+                  sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+                  src="https://embed.music.apple.com/us/album/my-god-no-dey-fail-single/1810293834"
+                />
               </Col>
             </Row>
           </article>

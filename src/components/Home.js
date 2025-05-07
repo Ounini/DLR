@@ -199,7 +199,7 @@ function Home() {
               <Link target="_blank" to="https://facebook.com">
                 <i className="bi bi-facebook" />
               </Link>
-              <Link target="_blank" to="https://youtube.com">
+              <Link target="_blank" to="https://www.youtube.com/@divine_light_resurrection">
                 <i className="bi bi-youtube text-danger" />
               </Link>
             </div>
@@ -215,12 +215,12 @@ function Home() {
             <h4>listen to sermons and music from our leading pastor</h4>
             <Row>
               <Col className="youtubeImg">
-                <Link to="https://youtube.com">
+                <Link target="_blank" to="https://www.youtube.com/watch?v=qNs3l_Nw4Mo">
                   <img src={youtubeListen} alt="Listen on Youtube" />
                 </Link>
               </Col>
               <Col className="youtubeImg">
-                <Link to="https://spotify.com">
+                <Link target="_blank" to="https://open.spotify.com/album/6DuAl7mhGpwA2e8EKQJRXt?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid">
                   <img src={spotifyListen} alt="Listen on spotify" />
                 </Link>
               </Col>
@@ -272,8 +272,8 @@ function Home() {
               <br /> Pray this prayer with us:
               <br />{" "}
               <i className="italic">
-                "My Father, arise on my behalf! Let the glort that I have lost
-                locate me in the name of Jesus!"
+                "Oh God, arise Let the glory I have lost locate me by fire, in
+                the name of Jesus!"
               </i>
               <br /> Whatever has been stolen from your life—your{" "}
               <b>marriage, career, health, or purpose</b>—God will restore it
@@ -289,7 +289,7 @@ function Home() {
           <Carousel fade className="test">
             {testimoneyData.map((test) => (
               <Carousel.Item
-                interval="10000"
+                interval="40000"
                 className="testCaro"
                 key={test.id}
               >

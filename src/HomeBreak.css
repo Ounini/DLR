@@ -1,5 +1,11 @@
 /* XXL */
 @media (min-width: 1400px) {
+  .theLogo img {
+    width: 20%;
+  }
+  .container-fluid div.musicRow {
+    --bs-gutter-x: 1.5rem;
+  }
   .ministries img {
     width: 700px;
   }
@@ -140,6 +146,12 @@
 
 /* XL */
 @media (max-width: 1399px) and (min-width: 1200px) {
+  .theLogo img {
+    width: 20%;
+  }
+  .container-fluid div.musicRow {
+    --bs-gutter-x: 1.5rem;
+  }
   .thePastor img {
     width: 500px;
   }
@@ -280,6 +292,13 @@
 
 /* LG */
 @media (max-width: 1199px) and (min-width: 992px) {
+  .theLogo img {
+    width: 30%;
+  }
+  .container-fluid div.musicRow {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 1rem;
+  }
   .thePastor img {
     width: 400px;
   }
@@ -420,6 +439,9 @@
 
 /* MD */
 @media (max-width: 991px) and (min-width: 768px) {
+  .theLogo img {
+    width: 50%;
+  }
   .thePastor img {
     width: 350px;
   }
@@ -557,6 +579,9 @@
 
 /* SM */
 @media (max-width: 767px) and (min-width: 576px) {
+  .theLogo img {
+    width: 50%;
+  }
   .thePastor img {
     width: 350px;
   }

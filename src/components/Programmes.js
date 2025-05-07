@@ -22,10 +22,10 @@ function Programmes() {
             <h4>Weekly Programmes</h4>
             <ul>
               <li>
-                <strong>Sunday:</strong> Sunday Worship 7:00 AM - 10:30 AM
+                <strong>Sunday:</strong> Sunday Worship 7:30 AM - 9:30 AM
               </li>
               <li>
-                <strong>Thursday:</strong> {ThursdayProgramm} 4:00 PM - 5:30 PM
+                <strong>Thursday:</strong> {ThursdayProgramm} 12:00 AM - 1:00 AM
               </li>
             </ul>
           </article>
@@ -33,17 +33,17 @@ function Programmes() {
             <h4>Special Programmes & Events</h4>
             <ul>
               <li>
-                <strong>Monthly Night of Encounter</strong>
-                <p>Last Friday of the Month | 9:00 PM - 4:00 AM</p>
+                <strong>Recovery Your Glory</strong>
+                <p>13th of May 2025 | 9:00 PM - 4:00 AM</p>
               </li>
               <li>
-                <strong>Annual Revival Conference</strong>
-                <p>4th of April | 8:00 AM - 3:00 PM</p>
+                <strong>Revival Service</strong>
+                <p>18th of May | 7:30 AM - 9:30 AM</p>
               </li>
-              <li>
+              {/* <li>
                 <strong>Youth & Teens Fellowship</strong>
                 <p>Every Last Saturday | 4:00 PM - 6:00 PM</p>
-              </li>
+              </li> */}
             </ul>
             <p>
               "Stay tuned! More special programs and events will be announced
