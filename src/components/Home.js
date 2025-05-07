@@ -12,7 +12,7 @@ const caroData = [
     img: pic,
     text: "Welcome to Divine Light Of Resurrection ",
     alt: "welcome",
-    phase: '"A Place of Hope, Love, and Worship."',
+    phase: '"A Place of Hope, Love, and Recovery."',
     joinText: "Join us live",
     joinUrl: "/live",
     worship: "Worship with us",
