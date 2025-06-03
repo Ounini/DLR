@@ -294,7 +294,7 @@ function Home() {
       </Row>
       <section className="sectionServices testimoneySec text-center d-flex flex-column align-items-center">
         <div className="testimony-carousel-wrapper">
-          <h4>Testimoney</h4>
+          <h4>Testimony</h4>
           <Carousel fade className="test">
             {testimoneyData.map((test) => (
               <Carousel.Item

@@ -7,35 +7,16 @@ import { useLocation } from "react-router-dom";
 var pageHeader = "Music";
 var pageShorty = "Be inspired by God’s Word and uplifting worship.";
 
-// const sermonsData = [
-//   {
-//     id: 1,
-//     title: "God the Author 1",
-//     description:
-//       "God is the author of our lives, and He is the one who gives us",
-//     date: "2020-01-01",
-//     link: "#",
-//     image: sermons,
-//   },
-//   {
-//     id: 2,
-//     title: "God the Author 2",
-//     description:
-//       "God is the author of our lives, and He is the one who gives us",
-//     date: "2020-02-02",
-//     link: "#",
-//     image: sermons,
-//   },
-//   {
-//     id: 3,
-//     title: "God the Author 3",
-//     description:
-//       "God is the author of our lives, and He is the one who gives us",
-//     date: "2020-03-03",
-//     link: "#",
-//     image: sermons,
-//   },
-// ];
+const sermonsData = [
+  {
+    id: 1,
+    title: "Come out from the calvary by Apst Victor S. Uwangue",
+    description:
+      "Today's prayer by Apostle Victor Samuel Uwangue. Title: God's unending overflowing power.",
+    date: "2025-06-02",
+    link: "https://www.youtube.com/embed/6OCbjUMEvgg?si=H547PtIEOqohzs3c",
+  },
+];
 
 function Sermons() {
   const targetRef = useRef(null);
@@ -71,8 +52,8 @@ function Sermons() {
             </p>
             <Button href="#" className="buttoned">
               Watch now
-            </Button> */}
-          {/* </article>
+            </Button> 
+          </article> */}
           <article className="sermonsArt">
             <h4>More Sermons from our senior pastor</h4>
             <Row>
@@ -85,21 +66,24 @@ function Sermons() {
                   key={sermon.id}
                   className="sermonCol"
                 >
-                  <img
-                    src={sermon.image}
-                    alt={sermon.title}
-                    className="img-fluid"
+                  <iframe
+                    src={sermon.link}
+                    title="Sermons and prayer"
+                    allowFullScreen
+                    allow="autoplay; encrypted-media"
+                    style={{ width: "100%", height: "352px" }}
                   />
                   <h6>{sermon.title}</h6>
-                  <p>{sermon.description}</p>
-                  <p>Date: {sermon.date}</p>
-                  <Button href={sermon.link} className="mb-5 buttoned">
-                    Watch now
-                  </Button>
+                  <p style={{ fontSize: "12px", marginTop: "10px" }}>
+                    {sermon.description}
+                  </p>
+                  <p style={{ fontSize: "12px", marginTop: "-10px" }}>
+                    Date: {sermon.date}
+                  </p>
                 </Col>
               ))}
             </Row>
-          </article> */}
+          </article>
           <article>
             <h4 ref={targetRef} id="musics">
               Music
