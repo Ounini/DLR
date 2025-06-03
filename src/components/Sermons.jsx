@@ -16,6 +16,14 @@ const sermonsData = [
     date: "2025-06-02",
     link: "https://www.youtube.com/embed/6OCbjUMEvgg?si=H547PtIEOqohzs3c",
   },
+  {
+    id: 1,
+    title: "Prayer of Deliverance by Apst Victor S. Uwangue",
+    description:
+      "Today's prayer by Apostle Victor Samuel Uwangue. Title: Overdued Pregency",
+    date: "2025-06-03",
+    link: "https://www.youtube.com/embed/KLbjKE01klc?si=LuStMoLhIyp99WD_",
+  },
 ];
 
 function Sermons() {
