@@ -10,19 +10,51 @@ var pageShorty = "Be inspired by God’s Word and uplifting worship.";
 const sermonsData = [
   {
     id: 1,
-    title: "Come out from the calvary by Apst Victor S. Uwangue",
+    title: "Come out from the calvary",
     description:
       "Today's prayer by Apostle Victor Samuel Uwangue. Title: God's unending overflowing power.",
     date: "2025-06-02",
     link: "https://www.youtube.com/embed/6OCbjUMEvgg?si=H547PtIEOqohzs3c",
   },
   {
-    id: 1,
-    title: "Prayer of Deliverance by Apst Victor S. Uwangue",
+    id: 2,
+    title: "Prayer of Deliverance",
     description:
-      "Today's prayer by Apostle Victor Samuel Uwangue. Title: Overdued Pregency",
+      "Today's prayer by Apostle Victor Samuel Uwangue. Title: Overdued Pregency.",
     date: "2025-06-03",
     link: "https://www.youtube.com/embed/KLbjKE01klc?si=LuStMoLhIyp99WD_",
+  },
+  {
+    id: 3,
+    title: "Prayer of Deliverance",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: The Sword Of Your Enemies Shall Enter Into Their Own Hearts.",
+    date: "2025-06-05",
+    link: "https://www.youtube.com/embed/U81wdvqrZgk?si=JKpjHIR3kLpoYbHm",
+  },
+  {
+    id: 4,
+    title: "Prayer of Declaration",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: O God, heal and repair my faulty foundation.",
+    date: "2025-06-08",
+    link: "https://www.youtube.com/embed/ViXGVJyM4LM?si=td_8rSSbjoGniUWm",
+  },
+  {
+    id: 5,
+    title: "Prayer of Liberation.",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: O God, Destory the evil gathering against you.",
+    date: "2025-06-09",
+    link: "https://www.youtube.com/embed/af-HwF_tQzg?si=eq0cWdjEYYKNopAx",
+  },
+  {
+    id: 6,
+    title: "Prayer of Favour.",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: The Visa You Seek Belongs To God.",
+    date: "2025-06-12",
+    link: "https://www.youtube.com/embed/xbenKmHoot0?si=Hm07aryAA-3AUbSL",
   },
 ];
 
