@@ -78,7 +78,7 @@ function About() {
             </div>
 
             <h6 className="text-center fw-bolder pt-3">
-              Apostle Victor Sunday Uwangue
+              Apostle Victor Samuel Uwangue
             </h6>
             <p>
               Apostle Victor is the visionary leader and founder of{" "}
