@@ -97,31 +97,33 @@ function Sermons() {
           <article className="sermonsArt">
             <h4>More Sermons from our senior pastor</h4>
             <Row>
-              {sermonsData.map((sermon) => (
-                <Col
-                  sm={12}
-                  md={6}
-                  lg={4}
-                  xl={3}
-                  key={sermon.id}
-                  className="sermonCol"
-                >
-                  <iframe
-                    src={sermon.link}
-                    title="Sermons and prayer"
-                    allowFullScreen
-                    allow="autoplay; encrypted-media"
-                    style={{ width: "100%", height: "352px" }}
-                  />
-                  <h6>{sermon.title}</h6>
-                  <p style={{ fontSize: "12px", marginTop: "10px" }}>
-                    {sermon.description}
-                  </p>
-                  <p style={{ fontSize: "12px", marginTop: "-10px" }}>
-                    Date: {sermon.date}
-                  </p>
-                </Col>
-              ))}
+              {[...sermonsData]
+                .sort((a, b) => new Date(b.date) - new Date(a.date))
+                .map((sermon) => (
+                  <Col
+                    sm={12}
+                    md={6}
+                    lg={4}
+                    xl={3}
+                    key={sermon.id}
+                    className="sermonCol"
+                  >
+                    <iframe
+                      src={sermon.link}
+                      title="Sermons and prayer"
+                      allowFullScreen
+                      allow="autoplay; encrypted-media"
+                      style={{ width: "100%", height: "352px" }}
+                    />
+                    <h6>{sermon.title}</h6>
+                    <p style={{ fontSize: "12px", marginTop: "10px" }}>
+                      {sermon.description}
+                    </p>
+                    <p style={{ fontSize: "12px", marginTop: "-10px" }}>
+                      Date: {sermon.date}
+                    </p>
+                  </Col>
+                ))}
             </Row>
           </article>
           <article>
