@@ -19,12 +19,14 @@ function Ministry() {
           pageShorty={pageShorty}
         />
         <article className="p-3 ministries">
-          <h4>The History Of Divine Light of Resurrection (D.L.R.)</h4>
+          <h4>
+            The History Of Divine Light of Resurrection Ministries (D.L.R.)
+          </h4>
           <p>
-            <b>Divine Light of Resurrection (D.L.R.)</b> is a ministry founded
-            under the divine mandate of Jesus Christ, dedicated to delivering
-            souls from bondage, restoring lost destinies, and manifesting the
-            power of God through signs and wonders.
+            <b>Divine Light of Resurrection Ministries (D.L.R.)</b> is a
+            ministry founded under the divine mandate of Jesus Christ, dedicated
+            to delivering souls from bondage, restoring lost destinies, and
+            manifesting the power of God through signs and wonders.
             <br />
             The vision of <b>D.L.R.</b> was birthed through Apostle Victor
             Samuel Uwangue, who was called by God into ministry in the year{" "}

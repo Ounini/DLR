@@ -95,7 +95,7 @@ function Sermons() {
             </Button> 
           </article> */}
           <article className="sermonsArt">
-            <h4>More Sermons from our senior pastor</h4>
+            <h4>More sermons and prayers from our senior pastor</h4>
             <Row>
               {[...sermonsData]
                 .sort((a, b) => new Date(b.date) - new Date(a.date))

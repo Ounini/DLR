@@ -25,12 +25,12 @@ function About() {
           <article>
             <h4>Our Mission</h4>
             <p>
-              At Divine Light of Resurrection (D.L.R.), our mission is to reach
-              out to lost souls, break spiritual strongholds, and bring total
-              freedom to those suffering under the burdens of life. Through the
-              power of Jesus Christ, we wage war against the forces of
-              oppression, offering hope, deliverance, and restoration to all who
-              seek the light of God{"'"}s resurrection.
+              At Divine Light of Resurrection Ministries (D.L.R.), our mission
+              is to reach out to lost souls, break spiritual strongholds, and
+              bring total freedom to those suffering under the burdens of life.
+              Through the power of Jesus Christ, we wage war against the forces
+              of oppression, offering hope, deliverance, and restoration to all
+              who seek the light of God{"'"}s resurrection.
             </p>
           </article>
           <article>
@@ -82,10 +82,10 @@ function About() {
             </h6>
             <p>
               Apostle Victor is the visionary leader and founder of{" "}
-              <b>Divine Light of Resurrection (DLR)</b>, a ministry birthed
-              through divine inspiration to bring salvation, healing, and
-              transformation. With a deep passion for God's Word and a heart for
-              souls, he has dedicated his life to preaching the Gospel with
+              <b>Divine Light of Resurrection Ministries (DLR)</b>, a ministry
+              birthed through divine inspiration to bring salvation, healing,
+              and transformation. With a deep passion for God's Word and a heart
+              for souls, he has dedicated his life to preaching the Gospel with
               power, love, and revelation, leading many into a deeper encounter
               with Christ. Through DLR, Apostle Victor has witnessed countless
               miracles, deliverances, and life-changing testimonies, affirming
@@ -100,9 +100,9 @@ function About() {
             <p>
               <span>Dear Beloved,</span>
               <br /> I warmly welcome you to Divine Light of Resurrection
-              (D.L.R.) is a ministry under the leadership of our Lord Jesus
-              Christ, committed to reaching lost souls and engaging in spiritual
-              warfare against the forces of darkness.
+              Ministries (D.L.R.) is a ministry under the leadership of our Lord
+              Jesus Christ, committed to reaching lost souls and engaging in
+              spiritual warfare against the forces of darkness.
               <br />
               <br />
               Many believers today find themselves in Calvary—a state of torment
@@ -111,9 +111,10 @@ function About() {
               hardships. These are signs of being in Calvary—a place of
               suffering and delay.
               <br /> <br />
-              That is why Divine Light of Resurrection exists—to bring you out
-              of spiritual bondage and into total freedom through the
-              resurrection power of Jesus Christ. Your deliverance starts here!
+              That is why Divine Light of Resurrection Ministries exists—to
+              bring you out of spiritual bondage and into total freedom through
+              the resurrection power of Jesus Christ. Your deliverance starts
+              here!
               <br />
               <span>{"-"} Apostle Victor</span>
             </p>

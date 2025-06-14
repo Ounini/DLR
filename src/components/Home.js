@@ -174,10 +174,10 @@ function Home() {
           <section className="sectionServices">
             <h4>About Us</h4>
             <p>
-              D.L.R. (Divine Light of Resurrection) is a Christ-led ministry
-              dedicated to rescuing lost souls and waging spiritual warfare
-              against forces of oppression. Many believers today experience
-              "Calvary"—a place of suffering, where struggles like
+              D.L.R. (Divine Light of Resurrection Ministries) is a Christ-led
+              ministry dedicated to rescuing lost souls and waging spiritual
+              warfare against forces of oppression. Many believers today
+              experience "Calvary"—a place of suffering, where struggles like
               childlessness, joblessness, and stagnation persist. D.L.R. is here
               to bring total freedom through the power of Jesus Christ.
             </p>
@@ -275,9 +275,9 @@ function Home() {
           <section className="sectionServices">
             <h4>A Call to Restoration</h4>
             <p>
-              At Divine Light of Resurrection (D.L.R.), we believe that God is
-              still in the business of restoring lost destinies, healing the
-              sick, and breaking every yoke of oppression.
+              At Divine Light of Resurrection Ministries (D.L.R.), we believe
+              that God is still in the business of restoring lost destinies,
+              healing the sick, and breaking every yoke of oppression.
               <br /> Pray this prayer with us:
               <br />{" "}
               <i className="italic">

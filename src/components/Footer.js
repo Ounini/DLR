@@ -45,8 +45,8 @@ function Footer() {
         </Col>
       </Row>
       <p className="copyright">
-        copyright &copy; {year} - Divine Life Of Resurrection . All rights
-        Reserved.
+        copyright &copy; {year} - Divine Light Of Resurrection Ministries. All
+        rights Reserved.
       </p>
     </Container>
   );
