@@ -56,6 +56,78 @@ const sermonsData = [
     date: "2025-06-12",
     link: "https://www.youtube.com/embed/xbenKmHoot0?si=Hm07aryAA-3AUbSL",
   },
+  {
+    id: 7,
+    title: "Prayer of Liberation.",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: God shall show you the secret of your gladness",
+    date: "2025-06-14",
+    link: "https://www.youtube.com/embed/FhlNOJZInqs?si=GaMvh1HPJ0sTKnKX",
+  },
+  {
+    id: 8,
+    title: "Declaration of redemption",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: May the mercy of God speak for you.",
+    date: "2025-06-15",
+    link: "https://www.youtube.com/embed/VIQhI0SGigI?si=D07eDmSiAl6NTFhW",
+  },
+  {
+    id: 9,
+    title: "Declaration for mercy and favour",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: The set time has come.",
+    date: "2025-06-16",
+    link: "https://www.youtube.com/embed/P4T4nFqWUOc?si=FzMoOJFAP40z63Bs",
+  },
+  {
+    id: 10,
+    title: "Declaration for recovery of glory",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Who touched your garment of glory.",
+    date: "2025-06-18",
+    link: "https://www.youtube.com/embed/vSq7FgE83vU?si=gApCgXR0OnjVdNcO",
+  },
+  {
+    id: 11,
+    title: "Declaration for recovery of glory",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Any good thing that died in your life, be revived back to life. John 11: 25",
+    date: "2025-06-22",
+    link: "https://www.youtube.com/embed/zrN94ZOQIQ4?si=cXw6PIUoQL90AyTG",
+  },
+  {
+    id: 12,
+    title: "I am not a failure",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Rejoice not against me, my enemies. Micah 7: 8",
+    date: "2025-06-26",
+    link: "https://www.youtube.com/embed/zK97IpkGuUk?si=NGq2HYEFoFw8RTsW",
+  },
+  {
+    id: 13,
+    title: "No more secret tears",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Be fruitful, Psalm 127: 3",
+    date: "2025-06-27",
+    link: "https://www.youtube.com/embed/2JvZTdxAGmE?si=aCpUBJEuHxFUAvFf",
+  },
+  {
+    id: 14,
+    title: "God promised safety over your life",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You are not alone, God is watching over you, Isaiah 49: 15 - 16.",
+    date: "2025-06-28",
+    link: "https://www.youtube.com/embed/7165GsERfEw?si=YWxXWFYBvsg906De",
+  },
+  {
+    id: 15,
+    title: "Declaration of peace",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You have been committed into the hands of God",
+    date: "2025-06-29",
+    link: "https://www.youtube.com/embed/Vc07i5gAalI?si=gNm4Rbz9nzMNkYaw",
+  },
 ];
 
 function Sermons() {
