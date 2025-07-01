@@ -128,6 +128,14 @@ const sermonsData = [
     date: "2025-06-29",
     link: "https://www.youtube.com/embed/Vc07i5gAalI?si=gNm4Rbz9nzMNkYaw",
   },
+  {
+    id: 16,
+    title: "Declaration of perfection",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: It's your season of perfection, Genesis 2: 2 - 3.",
+    date: "2025-07-01",
+    link: "https://www.youtube.com/embed/qwjHXJNNflA?si=u_x00k07RQ20qAId",
+  },
 ];
 
 function Sermons() {
