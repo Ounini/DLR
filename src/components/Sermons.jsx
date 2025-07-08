@@ -42,7 +42,7 @@ const sermonsData = [
   },
   {
     id: 5,
-    title: "Prayer of Liberation.",
+    title: "Prayer of Liberation",
     description:
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: O God, Destory the evil gathering against you.",
     date: "2025-06-09",
@@ -58,9 +58,9 @@ const sermonsData = [
   },
   {
     id: 7,
-    title: "Prayer of Liberation.",
+    title: "Prayer of Liberation",
     description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: God shall show you the secret of your gladness",
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: God shall show you the secret of your gladness.",
     date: "2025-06-14",
     link: "https://www.youtube.com/embed/FhlNOJZInqs?si=GaMvh1HPJ0sTKnKX",
   },
@@ -92,7 +92,7 @@ const sermonsData = [
     id: 11,
     title: "Declaration for recovery of glory",
     description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Any good thing that died in your life, be revived back to life. John 11: 25",
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Any good thing that died in your life, be revived back to life. John 11: 25.",
     date: "2025-06-22",
     link: "https://www.youtube.com/embed/zrN94ZOQIQ4?si=cXw6PIUoQL90AyTG",
   },
@@ -100,7 +100,7 @@ const sermonsData = [
     id: 12,
     title: "I am not a failure",
     description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Rejoice not against me, my enemies. Micah 7: 8",
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Rejoice not against me, my enemies. Micah 7: 8.",
     date: "2025-06-26",
     link: "https://www.youtube.com/embed/zK97IpkGuUk?si=NGq2HYEFoFw8RTsW",
   },
@@ -108,7 +108,7 @@ const sermonsData = [
     id: 13,
     title: "No more secret tears",
     description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Be fruitful, Psalm 127: 3",
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Be fruitful, Psalm 127: 3.",
     date: "2025-06-27",
     link: "https://www.youtube.com/embed/2JvZTdxAGmE?si=aCpUBJEuHxFUAvFf",
   },
@@ -124,7 +124,7 @@ const sermonsData = [
     id: 15,
     title: "Declaration of peace",
     description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You have been committed into the hands of God",
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You have been committed into the hands of God.",
     date: "2025-06-29",
     link: "https://www.youtube.com/embed/Vc07i5gAalI?si=gNm4Rbz9nzMNkYaw",
   },
@@ -135,6 +135,63 @@ const sermonsData = [
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: It's your season of perfection, Genesis 2: 2 - 3.",
     date: "2025-07-01",
     link: "https://www.youtube.com/embed/qwjHXJNNflA?si=u_x00k07RQ20qAId",
+  },
+  {
+    id: 17,
+    title: "Declaration of no more failures",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: The evil tares in your life is been uprooted, Matthew 13: 25.",
+    date: "2025-07-02",
+    link: "https://www.youtube.com/embed/16uaQtZTLvU?si=jJ4sf5HiGU_YWzTr",
+  },
+  {
+    id: 18,
+    title: "Declaration of strength",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Put on thy beautiful garments, Isaiah 52: 1.",
+    date: "2025-07-03",
+    link: "https://www.youtube.com/embed/I4hTTUxFixk?si=HBDW6ELy3pq3L7Jn",
+  },
+  {
+    id: 19,
+    title: "Declaration of purification",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: O God, purify my foundation, Psalm 11: 3.",
+    date: "2025-07-04",
+    link: "https://www.youtube.com/embed/rt2o1dgkI3k?si=nLVo_uglQv9YF8Q0",
+  },
+  {
+    id: 20,
+    title: "Operation no mercy",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Destroying the power that is ready to destroy you, 2 Kings 3: 27.",
+    date: "2025-07-05",
+    link: "https://www.youtube.com/embed/DVBnhxMo4FY?si=thyeqQvGY-kw6vr8",
+  },
+  {
+    id: 21,
+    title: "Declaration of Favour",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: God is restoring all your wasted years, Joel 2: 25.",
+    date: "2025-07-06",
+    link: "https://www.youtube.com/embed/qwjHXJNNflA?si=u_x00k07RQ20qAId",
+  },
+  {
+    id: 22,
+    title: "Declaration of deliverance",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You have been committed into the hands of God, Psalms 31: 5.",
+    date: "2025-07-07",
+    link: "https://www.youtube.com/embed/4eE_2v5xWoM?si=3najaGeIrH6qsLB8",
+  },
+
+  {
+    id: 23,
+    title: "Declaration for restoration of glory",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You off the garments of slavery, John 11: 44.",
+    date: "2025-07-08",
+    link: "https://www.youtube.com/embed/0w7ni0FxSbw?si=IsJsAh42KdArf4ME",
   },
 ];
 
