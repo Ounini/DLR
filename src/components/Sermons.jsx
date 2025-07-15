@@ -193,6 +193,46 @@ const sermonsData = [
     date: "2025-07-08",
     link: "https://www.youtube.com/embed/0w7ni0FxSbw?si=IsJsAh42KdArf4ME",
   },
+  {
+    id: 24,
+    title: "Declaration for stability",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Destroying the evil horns, Zechariah 1: 18 - 19.",
+    date: "2025-07-09",
+    link: "https://www.youtube.com/embed/1JSXIG-b0RA?si=Ez5NL0Zf9ZEszv-S",
+  },
+  {
+    id: 25,
+    title: "Declaration for safety",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Every death sentence issued against you is cancelled, Jeremiah 1: 19.",
+    date: "2025-07-10",
+    link: "https://www.youtube.com/embed/-RCH0GDVqCc?si=tTRbx1UWFre2wK7W",
+  },
+  {
+    id: 26,
+    title: "Let heaven hear your cry",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Set ablaze any images representing you, Matthew 11: 12.",
+    date: "2025-07-11",
+    link: "https://www.youtube.com/embed/5oA-fgNNM2s?si=d419DqFXpropp5vw",
+  },
+  {
+    id: 27,
+    title: "Stand firmly in the lord",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You shall not give up, James 4: 7",
+    date: "2025-07-12.",
+    link: "https://www.youtube.com/embed/RBziQLvieLA?si=RxRG15M_-cPDWbVf",
+  },
+  {
+    id: 28,
+    title: "Prayers for deliverance",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Destroyed generational covenant and curses, Matthew 21: 24 - 25.",
+    date: "2025-07-14",
+    link: "https://www.youtube.com/embed/KRGr3Usk4Hk?si=_9pn7J7Is_wQ5VDS",
+  },
 ];
 
 function Sermons() {
