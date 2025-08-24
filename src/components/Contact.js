@@ -48,13 +48,13 @@ function Contact() {
                 <h6>General Enquiries</h6>
                 <p>
                   <strong>Phone:</strong>
-                  <a href="tel:+2349128522529"> +234 (0)912 852 2529</a>,
+                  <a href="tel:+2349036610547"> +234 (0)903 661 0547</a>,
                   <a href="tel:+2348052975719"> +234 (0)805 297 5719</a>
                 </p>
-                <p>
+                {/* <p>
                   <strong>Email:</strong>
                   <a href="mailto:enquires@dlr.org"> enquires@dlr.org</a>
-                </p>
+                </p> */}
               </div>
               <div>
                 <h6>WEBSITE ISSUES</h6>

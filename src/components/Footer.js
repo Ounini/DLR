@@ -10,7 +10,7 @@ function Footer() {
           <h6>Contact Info</h6>
           <p>
             Phone: <a href="tel:+2349036610547"> +234 (0)903 661 0547</a>
-            {/* <a href="tel:+2348052975719"> +234 (0)805 297 5719</a> */}
+            <a href="tel:+2348052975719"> +234 (0)805 297 5719</a>
           </p>
           {/* <p>
             Email: <a href="mailto:enquires@dlr.org"> enquires@dlr.org</a>
