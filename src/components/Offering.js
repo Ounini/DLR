@@ -25,13 +25,13 @@ function Offering() {
                     Zenith Bank: Uwangue Sunday{" "}
                     <strong>4204088589 (Naira)</strong>
                   </li>
-                  <li>
+                  {/* <li>
                     GTBank: Uwangue Victor global venture{" "}
                     <strong>1027809289 (Dollar)</strong>
                   </li>
                   <li>
                     GT bank: <strong>82839392828</strong>
-                  </li>
+                  </li> */}
                 </ul>
               </article>
             </Tab>
