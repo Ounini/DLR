@@ -196,7 +196,10 @@ function Home() {
               worship, pray, and receive divine revelation. Don't miss it!
             </p>
             <div>
-              <Link target="_blank" to="https://facebook.com">
+              <Link
+                target="_blank"
+                to="https://www.facebook.com/profile.php?id=61578693090634"
+              >
                 <i className="bi bi-facebook" />
               </Link>
               <Link
@@ -204,6 +207,12 @@ function Home() {
                 to="https://www.youtube.com/@divine_light_resurrection"
               >
                 <i className="bi bi-youtube text-danger" />
+              </Link>
+              <Link
+                target="_blank"
+                to="https://vm.tiktok.com/ZSHGw1qFetg98-OWjix/"
+              >
+                <i className="bi bi-tiktok text-dark" />
               </Link>
             </div>
             <Button href="/live" className="mt-2 buttoned">

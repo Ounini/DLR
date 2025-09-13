@@ -1,5 +1,3 @@
-import React from "react";
-
 const GoUp = () => {
   return (
     <div className="position-fixed bottom-0 end-0 p-3 d-block d-sm-none">

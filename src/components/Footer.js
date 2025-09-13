@@ -32,7 +32,10 @@ function Footer() {
         <Col sm={12} md={6} xl={4} className="socialCol">
           <h6 className="follow">Follow Us</h6>
           <div className="socialMedia">
-            <Link target="_blank" to="https://facebook.com">
+            <Link
+              target="_blank"
+              to="https://www.facebook.com/profile.php?id=61578693090634"
+            >
               <i className="bi bi-facebook" />
             </Link>
             <Link
@@ -40,6 +43,12 @@ function Footer() {
               to="https://www.youtube.com/@divine_light_resurrection"
             >
               <i className="bi bi-youtube" />
+            </Link>
+            <Link
+              target="_blank"
+              to="https://vm.tiktok.com/ZSHGw1qFetg98-OWjix/"
+            >
+              <i className="bi bi-tiktok" />
             </Link>
           </div>
         </Col>

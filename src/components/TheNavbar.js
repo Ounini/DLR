@@ -1,6 +1,7 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import logo from "../assest/images/logo.png";
 import { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 function TheNavbar() {
   const [navbar, setNavbar] = useState(false);
@@ -35,18 +36,30 @@ function TheNavbar() {
         <Navbar.Toggle aria-controls="navbar001" />
         <Navbar.Collapse id="navbar001 z-3">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/about-us">About Us</Nav.Link>
-            <Nav.Link href="/ministry">The Ministry</Nav.Link>
-            <Nav.Link href="/programmes">Programmes</Nav.Link>
-            <Nav.Link href="/resources">Sermons and Music</Nav.Link>
-            <Nav.Link href="/contact-us">Contact Us</Nav.Link>
-            <Nav.Link href="/live" className="liveBar">
+            <NavLink className="nav-link" to="/">
+              Home
+            </NavLink>
+            <NavLink className="nav-link" to="/about-us">
+              About Us
+            </NavLink>
+            <NavLink className="nav-link" to="/ministry">
+              The Ministry
+            </NavLink>
+            <NavLink className="nav-link" to="/programmes">
+              Programmes
+            </NavLink>
+            <NavLink className="nav-link" to="/resources">
+              Sermons and Music
+            </NavLink>
+            <NavLink className="nav-link" to="/contact-us">
+              Contact Us
+            </NavLink>
+            <NavLink to="/live" className="liveBar nav-link">
               Join us Live
-            </Nav.Link>
-            <Nav.Link href="/offerings" className="offeringsBar">
+            </NavLink>
+            <NavLink to="/offerings" className="offeringsBar nav-link">
               Offerings
-            </Nav.Link>
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
