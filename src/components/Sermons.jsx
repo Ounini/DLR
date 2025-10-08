@@ -10,55 +10,6 @@ var pageShorty = "Be inspired by God’s Word and uplifting worship.";
 const sermonsData = [
   {
     id: 1,
-    title: "Declarations for greatness",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: August propthetic declarations",
-    date: "2025-08-1",
-    link: "https://www.youtube.com/embed/gZeZbivD8kY?si=YwxyEZpD6zkyM3RJ",
-  },
-  {
-    id: 2,
-    title: "Judgement of God fall upon the wicked",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Powers summoning you in any alters, God shall judge them now",
-    date: "2025-08-3",
-    link: "https://www.youtube.com/embed/TJeXxtftNq0?si=kIo8QZXuaghks9tY",
-  },
-  {
-    id: 3,
-    title:
-      "Anything that needs to be destroyed for your glory to shine shall be destroyed",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Your oil and glory shall not run dry",
-    date: "2025-08-4",
-    link: "https://www.youtube.com/embed/XLt-KicUd8o?si=HNM8q8xb3HOA0MXL",
-  },
-  {
-    id: 4,
-    title: "Declarations for recovery",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Capture your glory",
-    date: "2025-08-8",
-    link: "https://www.youtube.com/embed/xArj4UbjH1Q?si=xoEmHjUf2oRQBHF9",
-  },
-  {
-    id: 5,
-    title: "Declarations for freedom",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You are the light the nations will look up to",
-    date: "2025-08-9",
-    link: "https://www.youtube.com/embed/XGjPnDPCyGQ?si=xKwtvwyrAtz-xEqB",
-  },
-  {
-    id: 6,
-    title: "Prophetic prayers",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: God promise to fight your battles",
-    date: "2025-08-11",
-    link: "https://www.youtube.com/embed/aQmhUXHyf5s?si=PU4Qo_gOfvzU3tBE",
-  },
-  {
-    id: 7,
     title: "Prophetic for revival",
     description:
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Your light shall shine to the whole world",
@@ -66,7 +17,7 @@ const sermonsData = [
     link: "https://www.youtube.com/embed/qKjONbKDIoU?si=cmGlQtmNet0adebl",
   },
   {
-    id: 8,
+    id: 2,
     title: "Declarations for breaking evil patterns",
     description:
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: God shall rewrite your history",
@@ -74,7 +25,7 @@ const sermonsData = [
     link: "https://www.youtube.com/embed/JOrf78K_qzQ?si=FmfGjDqDYOu7HkW9",
   },
   {
-    id: 9,
+    id: 3,
     title: "Prophetic prayers",
     description:
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: God shall make you a vessel unto honour.",
@@ -82,7 +33,7 @@ const sermonsData = [
     link: "https://www.youtube.com/embed/HDGAFU2_5ck?si=qItKo-gE0V7TdD_O",
   },
   {
-    id: 10,
+    id: 4,
     title: "Declarations for new beginnings",
     description:
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: God shall do new things in your life.",
@@ -90,7 +41,7 @@ const sermonsData = [
     link: "https://www.youtube.com/embed/SE2CDK67mhw?si=k53OVPsjNGPTQ3Va",
   },
   {
-    id: 11,
+    id: 5,
     title: "Prophetic declarations for freedoms",
     description:
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Any evil covenant troubling yout life is broken today",
@@ -98,7 +49,7 @@ const sermonsData = [
     link: "https://www.youtube.com/embed/WdDVLyYtRro?si=3CcwR_888Gv2ZVxd",
   },
   {
-    id: 12,
+    id: 6,
     title: "Prophetic declarations for liberation",
     description:
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Your battles are over in the name of Jesus",
@@ -106,7 +57,7 @@ const sermonsData = [
     link: "https://www.youtube.com/embed/ZzRkJ1mjuE8?si=wyz4imDf_UrgidZs",
   },
   {
-    id: 13,
+    id: 7,
     title: "Prophetic prayers for deliverance",
     description:
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Don't be troubled, the battles will soon be over",
@@ -114,7 +65,7 @@ const sermonsData = [
     link: "https://www.youtube.com/embed/FGdiU7HnjRo?si=0m14VrILtJW72eNs",
   },
   {
-    id: 14,
+    id: 8,
     title: "Prophetic declarations",
     description:
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: In this ember monnths, you shall not be used to balance evil accounts",
@@ -122,7 +73,7 @@ const sermonsData = [
     link: "https://www.youtube.com/embed/ytfyUvKjMRk?si=aHgopFIkOv14pkE-",
   },
   {
-    id: 15,
+    id: 9,
     title: "Declarations for freedom",
     description:
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Evil patterns is broken, In The Name Of Jesus",
@@ -130,7 +81,7 @@ const sermonsData = [
     link: "https://www.youtube.com/embed/rwh1MoMlAZE?si=Ro3wHFQWRd4Us_at",
   },
   {
-    id: 16,
+    id: 10,
     title: "Prophetic declarations",
     description:
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Any power hunting for your glory shall die",
@@ -138,7 +89,7 @@ const sermonsData = [
     link: "https://www.youtube.com/embed/wdKSSEaTCds?si=rKWll9Vua1oI_Auk",
   },
   {
-    id: 17,
+    id: 11,
     title: "You shall see your battles no more",
     description:
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You shall not die with your battles",
@@ -146,12 +97,76 @@ const sermonsData = [
     link: "https://www.youtube.com/embed/Pp1W1L6puNI?si=mIK90rnIuVVylQR_",
   },
   {
-    id: 18,
+    id: 12,
     title: "Prophetic prayers",
     description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Any porwer adding battles to your battle, shall die with the battles",
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Any power adding battles to your battle, shall die with the battles",
     date: "2025-09-12",
     link: "https://www.youtube.com/embed/aAKuWNSsND8?si=P_OThsnvThciA8qa",
+  },
+  {
+    id: 13,
+    title: "Prophetic prayers",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Any good doors shiut against you is broken open in the name of Jesus",
+    date: "2025-09-15",
+    link: "https://www.youtube.com/embed/OsBqfoNeuP0?si=GuS-J1oXJd1ceSIH",
+  },
+  {
+    id: 14,
+    title: "Declaration of liberation",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Every satanic rearrangement over your life is broken",
+    date: "2025-09-16",
+    link: "https://www.youtube.com/embed/LbrykmCSOtI?si=d0HmaXyIEyu1yN6K",
+  },
+  {
+    id: 15,
+    title: "Declaration of freedom",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Ancestral evil cry over your life, is silenced in the name of Jesus",
+    date: "2025-09-18",
+    link: "https://www.youtube.com/embed/4FskZel7FOk?si=bv-jKJ0XI_tpjkWL",
+  },
+  {
+    id: 16,
+    title: "Prayer for healings",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You are healed of all manner of sickness and diseases",
+    date: "2025-09-23",
+    link: "https://www.youtube.com/embed/ZQkLJKA3zEk?si=qGIIBwRLShpFJjoI",
+  },
+  {
+    id: 17,
+    title: "Prophetic declarations",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Be promoted in the name of Jesus",
+    date: "2025-09-24",
+    link: "https://www.youtube.com/embed/gkcbIhytm6w?si=WUnnkdOOq7RoSJnf",
+  },
+  {
+    id: 18,
+    title: "Declaration for overcomers",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You shall not fail",
+    date: "2025-09-25",
+    link: "https://www.youtube.com/embed/0VE7aMWFNBc?si=FxDCHp0Jwn_ikm66",
+  },
+  {
+    id: 19,
+    title: "The value of birthright",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Your birthright shall make a way for you",
+    date: "2025-09-26",
+    link: "https://www.youtube.com/embed/kLIfASFJPFE?si=_mXj42JTH9j238oG",
+  },
+  {
+    id: 18,
+    title: "Declarations for liberation",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Congratulations, the battles has been won",
+    date: "2025-09-28",
+    link: "https://www.youtube.com/embed/pJNkhQ9zmXc?si=tsblCDOZhPzmWD2H",
   },
 ];
 
