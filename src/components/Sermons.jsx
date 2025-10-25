@@ -161,12 +161,20 @@ const sermonsData = [
     link: "https://www.youtube.com/embed/kLIfASFJPFE?si=_mXj42JTH9j238oG",
   },
   {
-    id: 18,
+    id: 20,
     title: "Declarations for liberation",
     description:
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Congratulations, the battles has been won",
     date: "2025-09-28",
     link: "https://www.youtube.com/embed/pJNkhQ9zmXc?si=tsblCDOZhPzmWD2H",
+  },
+  {
+    id: 21,
+    title: "Prophetic Declarations",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Come out of any pit you are in, in the name of Jesus",
+    date: "2025-10-9",
+    link: "https://www.youtube.com/embed/D_Y5jOTm2KM?si=VPcm3EADfRDS2BOI",
   },
 ];
 
