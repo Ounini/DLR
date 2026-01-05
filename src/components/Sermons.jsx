@@ -176,6 +176,38 @@ const sermonsData = [
     date: "2025-12-09",
     link: "https://www.youtube.com/embed/3d4v6bhU5Mw?si=GKxv00gcLwc9Nkos",
   },
+  {
+    id: 22,
+    title: "Declarations for overcomers",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: I hasll not be stagnant in the midst of plenty",
+    date: "2025-12-14",
+    link: "https://www.youtube.com/embed/Hz9zoV1Sbuo?si=idJpHE4yKR_hw1iN",
+  },
+  {
+    id: 23,
+    title: "Prophetic prayers",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Connectivity between you and failures is broken",
+    date: "2025-12-16",
+    link: "https://www.youtube.com/embed/nl1bgKgg7Yk?si=_I5bIFiVbu6dmzWj",
+  },
+  {
+    id: 24,
+    title: "Declarations for recovery",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: The dreams of your great glory shall manifest in Jesus name",
+    date: "2025-12-18",
+    link: "https://www.youtube.com/embed/9BqOI7eXAl4?si=Zhc2RxjF4qtUDbtp",
+  },
+  {
+    id: 25,
+    title: "Phophetic Declarations",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Mother witchcraft in charge of your battles shall die",
+    date: "2026-1-2",
+    link: "https://www.youtube.com/embed/OOpXuuWNsU4?si=KhqLg2twyxDcmKCf",
+  },
 ];
 
 function Sermons() {
