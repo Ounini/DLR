@@ -81,7 +81,10 @@ function About() {
               Apostle Victor Samuel Uwangue
             </h6>
             <p>
-              Apostle Victor is the visionary leader and founder of{" "}
+              Apostle Victor was born on a Sunday, so his parent decided to name
+              him Sunday. Until 2018, when God called him and give him a divine
+              mandate and named him Victor. <br /> He is also the visionary
+              leader and founder of{" "}
               <b>Divine Light of Resurrection Ministries (DLR)</b>, a ministry
               birthed through divine inspiration to bring salvation, healing,
               and transformation. With a deep passion for God's Word and a heart

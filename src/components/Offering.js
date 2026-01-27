@@ -27,10 +27,10 @@ function Offering() {
                   </li>
                   <li>
                     UBA: Uwangue Victor global venture{" "}
-                    <strong>1027809289 (Naira)</strong>
-                    <strong>3004680436 (Dollar)</strong>
-                    <strong>3004680467 (Euro)</strong>
-                    <strong>3004680560 (Pounds)</strong>
+                    <strong>2039023429 (Naira)</strong>
+                    <strong>3004968169 (Dollar)</strong>
+                    <strong>3004968190 (Euro)</strong>
+                    <strong>3004968420 (Pounds)</strong>
                   </li>
                 </ul>
               </article>
