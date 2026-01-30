@@ -9,94 +9,6 @@ var pageShorty = "Be inspired by God’s Word and uplifting worship.";
 
 const sermonsData = [
   {
-    id: 1,
-    title: "You shall see your battles no more",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You shall not die with your battles",
-    date: "2025-09-09",
-    link: "https://www.youtube.com/embed/Pp1W1L6puNI?si=mIK90rnIuVVylQR_",
-  },
-  {
-    id: 2,
-    title: "Prophetic prayers",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Any power adding battles to your battle, shall die with the battles",
-    date: "2025-09-12",
-    link: "https://www.youtube.com/embed/aAKuWNSsND8?si=P_OThsnvThciA8qa",
-  },
-  {
-    id: 3,
-    title: "Prophetic prayers",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Any good doors shiut against you is broken open in the name of Jesus",
-    date: "2025-09-15",
-    link: "https://www.youtube.com/embed/OsBqfoNeuP0?si=GuS-J1oXJd1ceSIH",
-  },
-  {
-    id: 4,
-    title: "Declaration of liberation",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Every satanic rearrangement over your life is broken",
-    date: "2025-09-16",
-    link: "https://www.youtube.com/embed/LbrykmCSOtI?si=d0HmaXyIEyu1yN6K",
-  },
-  {
-    id: 5,
-    title: "Declaration of freedom",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Ancestral evil cry over your life, is silenced in the name of Jesus",
-    date: "2025-09-18",
-    link: "https://www.youtube.com/embed/4FskZel7FOk?si=bv-jKJ0XI_tpjkWL",
-  },
-  {
-    id: 6,
-    title: "Prayer for healings",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You are healed of all manner of sickness and diseases",
-    date: "2025-09-23",
-    link: "https://www.youtube.com/embed/ZQkLJKA3zEk?si=qGIIBwRLShpFJjoI",
-  },
-  {
-    id: 7,
-    title: "Prophetic declarations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Be promoted in the name of Jesus",
-    date: "2025-09-24",
-    link: "https://www.youtube.com/embed/gkcbIhytm6w?si=WUnnkdOOq7RoSJnf",
-  },
-  {
-    id: 8,
-    title: "Declaration for overcomers",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You shall not fail",
-    date: "2025-09-25",
-    link: "https://www.youtube.com/embed/0VE7aMWFNBc?si=FxDCHp0Jwn_ikm66",
-  },
-  {
-    id: 9,
-    title: "The value of birthright",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Your birthright shall make a way for you",
-    date: "2025-09-26",
-    link: "https://www.youtube.com/embed/kLIfASFJPFE?si=_mXj42JTH9j238oG",
-  },
-  {
-    id: 10,
-    title: "Declarations for liberation",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Congratulations, the battles has been won",
-    date: "2025-09-28",
-    link: "https://www.youtube.com/embed/pJNkhQ9zmXc?si=tsblCDOZhPzmWD2H",
-  },
-  {
-    id: 11,
-    title: "Prophetic Declarations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Come out of any pit you are in, in the name of Jesus",
-    date: "2025-10-9",
-    link: "https://www.youtube.com/embed/D_Y5jOTm2KM?si=VPcm3EADfRDS2BOI",
-  },
-  {
     id: 12,
     title: "Prophetic Declarations",
     description:
@@ -207,6 +119,62 @@ const sermonsData = [
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Mother witchcraft in charge of your battles shall die",
     date: "2026-1-2",
     link: "https://www.youtube.com/embed/OOpXuuWNsU4?si=KhqLg2twyxDcmKCf",
+  },
+  {
+    id: 26,
+    title: "Phophetic Declarations",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: All your battles shall bow down for you this year",
+    date: "2026-1-6",
+    link: "https://www.youtube.com/embed/OKDZBJkjlXQ?si=-2ucaq247C7894WV",
+  },
+  {
+    id: 27,
+    title: "Phophetic Prayers",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You shall not be among those that are marked for destruction this year",
+    date: "2026-1-8",
+    link: "https://www.youtube.com/embed/LHJ12YRjiME?si=-ghQqBfVi7-sd2cm",
+  },
+  {
+    id: 28,
+    title: "Prophetic Declarations",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: God shall rewrite your history",
+    date: "2026-1-12",
+    link: "https://www.youtube.com/embed/P6TWFxfc6rE?si=t9GlMX_6gFQogsBd",
+  },
+  {
+    id: 29,
+    title: "Declarations for Opening Doors",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Any good doors shut aganist you shall begin to open",
+    date: "2026-1-13",
+    link: "https://www.youtube.com/embed/AZFPE_nJrtI?si=7Jm5IUU9chaduAtp",
+  },
+  {
+    id: 30,
+    title: "Declarations for Deliverance",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Powers on a mission to add battles to your battle shall die with the battles",
+    date: "2026-1-15",
+    link: "https://www.youtube.com/embed/_jFrmc_S0G0?si=2tSDacG-JEzsbuf_",
+  },
+  {
+    id: 31,
+    title: "Prayers for Remembrance",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: This days the lord shall remember you",
+    date: "2026-1-20",
+    link: "https://www.youtube.com/embed/Hryiv02LjQg?si=q5sS-nf9JVkMEgU-",
+  },
+  {
+    id: 32,
+    title: "Phophetic Declarations",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: I'm surrounded by the cycle of the blood of Jesus",
+    date: "2026-1-22",
+    link: "https://www.youtube.com/embed/T6kjkcLPu-w?si=FmO0lJ-uCc727KjO",
   },
 ];
 

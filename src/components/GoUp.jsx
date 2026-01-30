@@ -1,6 +1,9 @@
 const GoUp = () => {
   return (
-    <div className="position-fixed bottom-0 end-0 p-3 d-block d-sm-none">
+    <div
+      className="position-fixed bottom-0 end-0 p-3 d-block d-sm-none"
+      style={{ zIndex: 1050 }}
+    >
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         className="btn btn-danger"

@@ -19,18 +19,30 @@ function Offering() {
         <section>
           <Tabs defaultActiveKey="account" id="tab" className="mb-3">
             <Tab eventKey="account" title="Church Account NOs">
-              <article>
-                <ul>
+              <article style={{ textAlign: "center" }}>
+                <ul style={{ listStyle: "none" }}>
                   <li>
-                    Zenith Bank: Uwangue Sunday{" "}
+                    Zenith Bank: Uwangue Sunday
+                    <br />
                     <strong>4204088589 (Naira)</strong>
                   </li>
+                  <br /> <br />
                   <li>
-                    UBA: Uwangue Victor global venture{" "}
-                    <strong>2039023429 (Naira)</strong>
-                    <strong>3004968169 (Dollar)</strong>
-                    <strong>3004968190 (Euro)</strong>
-                    <strong>3004968420 (Pounds)</strong>
+                    UBA: Uwangue Victor
+                    <ul style={{ listStyle: "none" }}>
+                      <li>
+                        <strong>2039023429 (Naira)</strong>
+                      </li>
+                      <li>
+                        <strong>3004968169 (Dollar)</strong>
+                      </li>
+                      <li>
+                        <strong>3004968190 (Euro)</strong>
+                      </li>
+                      <li>
+                        <strong>3004968420 (Pounds)</strong>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </article>

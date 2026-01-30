@@ -4,18 +4,20 @@ import { Routes, Route } from "react-router-dom";
 import TheNavbar from "./components/TheNavbar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
-import About from "./components/About.js";
-import Ministry from "./components/Ministry.js";
-import Programmes from "./components/Programmes.js";
-import Sermons from "./components/Sermons.jsx";
-import Contact from "./components/Contact.js";
-import Live from "./components/Live.js";
-import Offering from "./components/Offering.js";
-import GoUp from "./components/GoUp.jsx";
+import About from "./components/About";
+import Ministry from "./components/Ministry";
+import Programmes from "./components/Programmes";
+import Sermons from "./components/Sermons";
+import Contact from "./components/Contact";
+import Live from "./components/Live";
+import Offering from "./components/Offering";
+import GoUp from "./components/GoUp";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <header>
         <TheNavbar />
       </header>
