@@ -9,46 +9,6 @@ var pageShorty = "Be inspired by God’s Word and uplifting worship.";
 
 const sermonsData = [
   {
-    id: 12,
-    title: "Prophetic Declarations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Whoever is carrying evil sacrifice against you shall go down",
-    date: "2025-11-17",
-    link: "https://www.youtube.com/embed/ZoR89iKHcbw?si=Q1MeSDnXXGB43Rvp",
-  },
-  {
-    id: 13,
-    title: "Prophetic Declarations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Powers using your case to settle their evil differences shall die",
-    date: "2025-11-24",
-    link: "https://www.youtube.com/embed/sb6F5rehjNM?si=hV4z_RAZ8pdVD6Dr",
-  },
-  {
-    id: 14,
-    title: "Prayers for Recovery",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: The blessings of the remaining days of the year, you shall posses",
-    date: "2025-11-25",
-    link: "https://www.youtube.com/embed/Rq_MYsYXvK8?si=YwHW2PD-y0lqpSLN",
-  },
-  {
-    id: 15,
-    title: "Libration Prophecy",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: As far their journey is not of the Lord, they shall go down",
-    date: "2025-11-26",
-    link: "https://www.youtube.com/embed/CCcz-FQDqyE?si=qWnDQjPyJUzUIyfJ",
-  },
-  {
-    id: 16,
-    title: "Prophetic Declarations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Where you supposed to be rejected, the unmerited favour of God shall qualify you",
-    date: "2025-11-28",
-    link: "https://www.youtube.com/embed/XzuAV0mpRaA?si=E5tDSoTJ1OTqJF1s",
-  },
-  {
     id: 17,
     title: "Morning prayers",
     description:
@@ -175,6 +135,47 @@ const sermonsData = [
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: I'm surrounded by the cycle of the blood of Jesus",
     date: "2026-1-22",
     link: "https://www.youtube.com/embed/T6kjkcLPu-w?si=FmO0lJ-uCc727KjO",
+  },
+  {
+    id: 33,
+    title: "Phophetic Declarations",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Owners fo evil load, carry your load",
+    date: "2026-2-26",
+    link: "https://www.youtube.com/embed/BewYKdrFsa4?si=NC6E1P5YRjxWR7bI",
+  },
+  {
+    id: 34,
+    title: "Phophetic Declarations",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: March into your promotions in Jesus Name",
+    date: "2026-3-2",
+    link: "https://www.youtube.com/embed/oZQuWgV6eIw?si=Uu_KQTEbjK6k3Ij5",
+  },
+  {
+    id: 35,
+    title: "Divine accelerations",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Be separated from calamity in Jesus Name",
+    date: "2026-3-3",
+    link: "https://www.youtube.com/embed/bbERBbXX9o4?si=ACUHAhuylwlnWT9S",
+  },
+  {
+    id: 36,
+    title: "Phophetic Declarations",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Receive to over come battles",
+    date: "2026-3-16",
+    link: "https://www.youtube.com/embed/7WdBW_PnstQ?si=2o2nQYc5dNos7-QY",
+  },
+
+  {
+    id: 37,
+    title: "Phophetic Declarations",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You shall fly high above all your battles in Jesus Name",
+    date: "2026-3-24",
+    link: "https://www.youtube.com/embed/PAayJJ38oeQ?si=eEjS2QlNvI2sO7sE",
   },
 ];
 
