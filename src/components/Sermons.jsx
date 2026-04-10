@@ -9,14 +9,6 @@ var pageShorty = "Be inspired by God’s Word and uplifting worship.";
 
 const sermonsData = [
   {
-    id: 17,
-    title: "Morning prayers",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Any battles assigned to ridicule your life shall become a stepping stone to your greatness",
-    date: "2025-11-29",
-    link: "https://www.youtube.com/embed/D_Y5jOTm2KM?si=VPcm3EADfRDS2BOI",
-  },
-  {
     id: 18,
     title: "Phophetic Declarations",
     description:
@@ -168,7 +160,6 @@ const sermonsData = [
     date: "2026-3-16",
     link: "https://www.youtube.com/embed/7WdBW_PnstQ?si=2o2nQYc5dNos7-QY",
   },
-
   {
     id: 37,
     title: "Phophetic Declarations",
@@ -176,6 +167,30 @@ const sermonsData = [
       "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You shall fly high above all your battles in Jesus Name",
     date: "2026-3-24",
     link: "https://www.youtube.com/embed/PAayJJ38oeQ?si=eEjS2QlNvI2sO7sE",
+  },
+  {
+    id: 38,
+    title: "Declarations to overcome satan",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: The real you begins to manifest in Jesus Name",
+    date: "2026-3-31",
+    link: "https://www.youtube.com/embed/PGelnNguaFQ?si=jfH3DjAUmGv0nPuC",
+  },
+  {
+    id: 39,
+    title: "Overflow of the glory of God",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Received your portion of the resurrection of Jesus",
+    date: "2026-4-6",
+    link: "https://www.youtube.com/embed/dlcFAwkmO6Q?si=Zrd42JQELhT0GwGG",
+  },
+  {
+    id: 40,
+    title: "Prayer to receive unmerited breakthroughs",
+    description:
+      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: The hidden treasure of God shall rain over tour life",
+    date: "2026-4-10",
+    link: "https://www.youtube.com/embed/xrEPA-jA8tU?si=GzmISU6idRfDYf8_",
   },
 ];
 
