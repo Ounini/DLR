@@ -13,16 +13,20 @@ import Live from "./components/Live";
 import Offering from "./components/Offering";
 import GoUp from "./components/GoUp";
 import ScrollToTop from "./components/ScrollToTop";
+import Upload from "./components/Upload";
+import AdminLogin from "./components/AdminLogin";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <ScrollToTop />
       <header>
         <TheNavbar />
       </header>
       <main>
         <Routes>
+          <Route path="*" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/ministry" element={<Ministry />} />
@@ -31,13 +35,23 @@ function App() {
           <Route path="/contact-us" element={<Contact />} />
           <Route path="/live" element={<Live />} />
           <Route path="/offerings" element={<Offering />} />
+          <Route path="/admin/login" element={<AdminLogin />} />
+
+          <Route
+            path="/admin/upload"
+            element={
+              <ProtectedRoute>
+                <Upload />
+              </ProtectedRoute>
+            }
+          />
         </Routes>
         <GoUp />
       </main>
       <footer>
         <Footer />
       </footer>
-    </>
+    </div>
   );
 }
 

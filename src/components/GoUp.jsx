@@ -8,7 +8,7 @@ const GoUp = () => {
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         className="btn btn-danger"
       >
-        <i class="bi bi-arrow-up" />
+        <i className="bi bi-arrow-up" />
       </button>
     </div>
   );

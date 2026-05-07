@@ -1,202 +1,46 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { PageHeaders } from "./PageHeaders";
 import sermons from "../assest/images/pic1.jpg";
 import { useLocation } from "react-router-dom";
+import { collection, getDocs, limit, orderBy, query } from "firebase/firestore";
+import { db } from "../firebase";
+import {BeatLoader} from "react-spinners"
 
 var pageHeader = "Music";
 var pageShorty = "Be inspired by God’s Word and uplifting worship.";
 
-const sermonsData = [
-  {
-    id: 18,
-    title: "Phophetic Declarations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: The evil sacrifice of your enemies shall hunt them",
-    date: "2025-12-01",
-    link: "https://www.youtube.com/embed/nm1eao8zUGk?si=pRF_9sjWPz38iyW0",
-  },
-  {
-    id: 19,
-    title: "Prayers of Freedom",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: The grip of bad dreams, manifesting in your life is broken in the name of Jesus",
-    date: "2025-12-03",
-    link: "https://www.youtube.com/embed/W7qlwjo9Vnc?si=iawhRXALBuKJ4vB5",
-  },
-  {
-    id: 20,
-    title: "Prophectic Prayers for spiritual awakening",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You shall not fade, you shall not expire in the name of Jesus Christ",
-    date: "2025-12-05",
-    link: "https://www.youtube.com/embed/MW2L5abedq4?si=eWk-YdqTSIeok2xx",
-  },
-  {
-    id: 21,
-    title: "Prophetic Declarations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: I say no to disappointment, in the name of Jesus",
-    date: "2025-12-09",
-    link: "https://www.youtube.com/embed/3d4v6bhU5Mw?si=GKxv00gcLwc9Nkos",
-  },
-  {
-    id: 22,
-    title: "Declarations for overcomers",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: I hasll not be stagnant in the midst of plenty",
-    date: "2025-12-14",
-    link: "https://www.youtube.com/embed/Hz9zoV1Sbuo?si=idJpHE4yKR_hw1iN",
-  },
-  {
-    id: 23,
-    title: "Prophetic prayers",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Connectivity between you and failures is broken",
-    date: "2025-12-16",
-    link: "https://www.youtube.com/embed/nl1bgKgg7Yk?si=_I5bIFiVbu6dmzWj",
-  },
-  {
-    id: 24,
-    title: "Declarations for recovery",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: The dreams of your great glory shall manifest in Jesus name",
-    date: "2025-12-18",
-    link: "https://www.youtube.com/embed/9BqOI7eXAl4?si=Zhc2RxjF4qtUDbtp",
-  },
-  {
-    id: 25,
-    title: "Phophetic Declarations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Mother witchcraft in charge of your battles shall die",
-    date: "2026-1-2",
-    link: "https://www.youtube.com/embed/OOpXuuWNsU4?si=KhqLg2twyxDcmKCf",
-  },
-  {
-    id: 26,
-    title: "Phophetic Declarations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: All your battles shall bow down for you this year",
-    date: "2026-1-6",
-    link: "https://www.youtube.com/embed/OKDZBJkjlXQ?si=-2ucaq247C7894WV",
-  },
-  {
-    id: 27,
-    title: "Phophetic Prayers",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You shall not be among those that are marked for destruction this year",
-    date: "2026-1-8",
-    link: "https://www.youtube.com/embed/LHJ12YRjiME?si=-ghQqBfVi7-sd2cm",
-  },
-  {
-    id: 28,
-    title: "Prophetic Declarations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: God shall rewrite your history",
-    date: "2026-1-12",
-    link: "https://www.youtube.com/embed/P6TWFxfc6rE?si=t9GlMX_6gFQogsBd",
-  },
-  {
-    id: 29,
-    title: "Declarations for Opening Doors",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Any good doors shut aganist you shall begin to open",
-    date: "2026-1-13",
-    link: "https://www.youtube.com/embed/AZFPE_nJrtI?si=7Jm5IUU9chaduAtp",
-  },
-  {
-    id: 30,
-    title: "Declarations for Deliverance",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Powers on a mission to add battles to your battle shall die with the battles",
-    date: "2026-1-15",
-    link: "https://www.youtube.com/embed/_jFrmc_S0G0?si=2tSDacG-JEzsbuf_",
-  },
-  {
-    id: 31,
-    title: "Prayers for Remembrance",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: This days the lord shall remember you",
-    date: "2026-1-20",
-    link: "https://www.youtube.com/embed/Hryiv02LjQg?si=q5sS-nf9JVkMEgU-",
-  },
-  {
-    id: 32,
-    title: "Phophetic Declarations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: I'm surrounded by the cycle of the blood of Jesus",
-    date: "2026-1-22",
-    link: "https://www.youtube.com/embed/T6kjkcLPu-w?si=FmO0lJ-uCc727KjO",
-  },
-  {
-    id: 33,
-    title: "Phophetic Declarations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Owners fo evil load, carry your load",
-    date: "2026-2-26",
-    link: "https://www.youtube.com/embed/BewYKdrFsa4?si=NC6E1P5YRjxWR7bI",
-  },
-  {
-    id: 34,
-    title: "Phophetic Declarations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: March into your promotions in Jesus Name",
-    date: "2026-3-2",
-    link: "https://www.youtube.com/embed/oZQuWgV6eIw?si=Uu_KQTEbjK6k3Ij5",
-  },
-  {
-    id: 35,
-    title: "Divine accelerations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Be separated from calamity in Jesus Name",
-    date: "2026-3-3",
-    link: "https://www.youtube.com/embed/bbERBbXX9o4?si=ACUHAhuylwlnWT9S",
-  },
-  {
-    id: 36,
-    title: "Phophetic Declarations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Receive to over come battles",
-    date: "2026-3-16",
-    link: "https://www.youtube.com/embed/7WdBW_PnstQ?si=2o2nQYc5dNos7-QY",
-  },
-  {
-    id: 37,
-    title: "Phophetic Declarations",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: You shall fly high above all your battles in Jesus Name",
-    date: "2026-3-24",
-    link: "https://www.youtube.com/embed/PAayJJ38oeQ?si=eEjS2QlNvI2sO7sE",
-  },
-  {
-    id: 38,
-    title: "Declarations to overcome satan",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: The real you begins to manifest in Jesus Name",
-    date: "2026-3-31",
-    link: "https://www.youtube.com/embed/PGelnNguaFQ?si=jfH3DjAUmGv0nPuC",
-  },
-  {
-    id: 39,
-    title: "Overflow of the glory of God",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: Received your portion of the resurrection of Jesus",
-    date: "2026-4-6",
-    link: "https://www.youtube.com/embed/dlcFAwkmO6Q?si=Zrd42JQELhT0GwGG",
-  },
-  {
-    id: 40,
-    title: "Prayer to receive unmerited breakthroughs",
-    description:
-      "Today's Prayer by Apostle Victor Samuel Uwangue. Title: The hidden treasure of God shall rain over tour life",
-    date: "2026-4-10",
-    link: "https://www.youtube.com/embed/xrEPA-jA8tU?si=GzmISU6idRfDYf8_",
-  },
-];
-
 function Sermons() {
+  const [sermonsData, setSermonsData] = useState([]);
+  const [loading, setLoading] = useState(true)
   const targetRef = useRef(null);
   const location = useLocation();
+
+  useEffect(() => {
+    const getVideos = async () => {
+      try {
+        setLoading(true)
+        const q = query(
+          collection(db, "videos"),
+          orderBy("createdAt", "desc"),
+          limit(20),
+        );
+
+        const snapshot = await getDocs(q);
+
+        const allVideos = snapshot.docs.map((item) => ({
+          id: item.id,
+          ...item.data(),
+        }));
+
+        setSermonsData(allVideos);
+        setLoading(false)
+      } catch (err) {
+        console.error(err);
+      }
+    };
+    getVideos();
+  }, []);
 
   useEffect(() => {
     if (location.hash === "#musics") {
@@ -232,7 +76,8 @@ function Sermons() {
           </article> */}
           <article className="sermonsArt">
             <h4>More sermons and prayers from our senior pastor</h4>
-            <Row>
+            {loading ? <BeatLoader /> : (
+              <Row>
               {[...sermonsData]
                 .sort((a, b) => new Date(b.date) - new Date(a.date))
                 .map((sermon) => (
@@ -245,7 +90,7 @@ function Sermons() {
                     className="sermonCol"
                   >
                     <iframe
-                      src={sermon.link}
+                      src={sermon.embedUrl}
                       title="Sermons and prayer"
                       allowFullScreen
                       allow="autoplay; encrypted-media"
@@ -256,11 +101,12 @@ function Sermons() {
                       {sermon.description}
                     </p>
                     <p style={{ fontSize: "12px", marginTop: "-10px" }}>
-                      Date: {sermon.date}
+                      Date: {new Date(sermon.date).toDateString()}
                     </p>
                   </Col>
                 ))}
             </Row>
+            )}  
           </article>
           <article>
             <h4 ref={targetRef} id="musics">
@@ -274,10 +120,10 @@ function Sermons() {
                   src="https://www.youtube.com/embed/qNs3l_Nw4Mo?si=oR5Rc7DTjkAYkKHa&amp;start=5"
                   style={{ borderRadius: 12 }}
                   title="Youtube: MY GOD NO DEY FAIL BY APOSTLE VICTOR S. UWANGUE"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
                 />
               </Col>
               <Col xs={12} lg={6} xl={4} className="youtubeImg">
@@ -287,7 +133,7 @@ function Sermons() {
                   src="https://open.spotify.com/embed/album/6DuAl7mhGpwA2e8EKQJRXt?utm_source=generator&theme=0"
                   width="100%"
                   height="352"
-                  allowfullscreen=""
+                  allowFullScreen=""
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                   loading="lazy"
                 />
@@ -296,7 +142,7 @@ function Sermons() {
                 <iframe
                   title="Apple: MY GOD NO DEY FAIL BY APOSTLE VICTOR S. UWANGUE"
                   allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
-                  frameborder="0"
+                  frameBorder="0"
                   height="352"
                   style={{
                     width: "100%",
