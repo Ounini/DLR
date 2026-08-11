@@ -117,7 +117,7 @@ function Sermons() {
                 <iframe
                   width="100%"
                   height="352"
-                  src="https://www.youtube.com/embed/qNs3l_Nw4Mo?si=oR5Rc7DTjkAYkKHa&amp;start=5"
+                  src="https://www.youtube.com/embed/SgLR52RcIkQ?si=wtA-g8DxXRciZPdW"
                   style={{ borderRadius: 12 }}
                   title="Youtube: MY GOD NO DEY FAIL BY APOSTLE VICTOR S. UWANGUE"
                   frameBorder="0"
